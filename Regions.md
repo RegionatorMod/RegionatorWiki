@@ -16,7 +16,9 @@ machine without clipping it leaves the machine out, whatever angle either of the
    [panel](The-Panel) counts it. Click (or press the hologram lock key) to fix the second corner.
 3. The region locks. The game's nudge keys move it; the build-mode key picks what they move:
    **Move Region**, **Move Anchor 1** or **Move Anchor 2** (the anchors that would move are
-   marked red). Scroll rotates the region with the game's rotation step.
+   marked red; on a controller press `L3 + B` instead, see
+   [Controller and Steam Deck](Controller)). Scroll rotates the region with the game's rotation
+   step.
 4. Click to confirm, or secondary fire to step back one stage.
 
 Unlocking lets anchor 2 follow the cursor again. Mods that turn or scale holograms (Infinite
