@@ -35,11 +35,17 @@ another blueprint.
 Blueprints of 100 or more buildings are placed without the game's build effect, which animates
 every belt and pipe and takes minutes for a large blueprint.
 
+## Buildings that can only be built once
+
+The HUB and the Space Elevator can only be built once, and a blueprint holding one could build it
+again. Copy and Save Blueprint leave them out of the selection, and a Move that includes one is
+never kept as a blueprint.
+
 ## Housekeeping
 
-- Move and Copy use temporary blueprints named `RGT_...`; they are deleted when the hologram is
-  put away, and a placed Move or Copy shows that id as its dismantle label.
+- Move and Copy work from a temporary blueprint that is deleted when the hologram is put away.
 - **Save each Move / Copy as a blueprint** (Mods menu, off by default) keeps one per operation
-  under **Regionator > Move History** or **Copy History**, named by the time it was made.
+  under **Regionator > Move History** or **Copy History**, named by the time it was made. Its
+  machines are empty unless **Include items in Blueprint** is on.
 - The blueprint menu category names (Regionator, Blueprints, Move History, Copy History) stay
   English in every language, because the game stores them by name in the save.

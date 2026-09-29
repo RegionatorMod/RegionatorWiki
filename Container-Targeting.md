@@ -12,8 +12,9 @@ inventory.
 > [screenshot placeholder: two targeted containers with their outline and box]
 
 Up to 64 containers can be targeted. A Dimensional Depot cannot be. The key works at every step
-of the tool, and also while the build gun holds any blueprint hologram, one from the blueprint
-menu as much as a Move or a Copy.
+of the tool in every mode that moves items or pays for buildings (Save Blueprint does neither, so
+the key is not offered there), and also while the build gun holds any blueprint hologram, one
+from the blueprint menu as much as a Move or a Copy.
 
 ## What flows through the targets
 

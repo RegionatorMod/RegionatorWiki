@@ -18,6 +18,8 @@ and the region can be any size.
 - The blueprint is a native one: build it from the menu, dismantle it with blueprint dismantle,
   share the file like any other blueprint.
 - What it carries and costs is on [Blueprints and Pricing](Blueprints-And-Pricing).
+- The HUB and the Space Elevator can only be built once, so they are left out of the selection.
+- Saving a blueprint moves no items, so the target-container key is not offered in this mode.
 - The game hides the blueprint menu until the blueprint milestone. While Save Blueprint is
   enabled (Mods menu) the menu is unlocked; switching the mode off before reaching the milestone
   hides it again.

@@ -3,6 +3,12 @@
 A region says which buildings you mean. Machines, belts, pipes, foundations, walls, beams and
 modded buildings are all selectable; what happens to them is the [tool mode's](Home) job.
 
+## What counts as inside
+
+A building is selected when the region touches any part of it; it does not have to be fully
+enclosed. Touching is judged by the building's real shape, so a region that passes beside a
+machine without clipping it leaves the machine out, whatever angle either of them stands at.
+
 ## Boxes
 
 1. Click to fix the first corner.
@@ -20,7 +26,7 @@ Nudge, pitch and roll modes) shape the region the same way.
 
 `Ctrl + B` (Regionator: toggle region shape) switches between box and sphere; the shape sticks
 for later regions and the next equip. The first click sets the centre, the second the radius,
-which the panel reads out in meters. In the adjust step the nudge targets are **Move Center** and
+which the panel reads out in metres. In the adjust step the nudge targets are **Move Center** and
 **Adjust Radius**; a nudge along the line from the centre changes the radius by exactly the nudge
 step. Scrolling leaves a sphere as it is.
 

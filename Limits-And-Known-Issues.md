@@ -8,6 +8,9 @@
 - At most 64 [targeted containers](Container-Targeting).
 - The [Dismantle](Dismantle) refund estimate is skipped above 3000 buildings; the dismantle
   itself is unaffected.
+- The HUB and the Space Elevator can only be built once, so [Copy](Copy) and
+  [Save Blueprint](Save-Blueprint) leave them out; a [Move](Move) moves them but is never kept as
+  a blueprint.
 
 ## Known issues
 
@@ -21,7 +24,6 @@
 - A [Move](Move) links its copies to what the originals were linked to outside the selection for
   belts and pipes only. A railroad track joins the track graph when it is built, so a copied
   track is joined only where the game's own Auto-Connect joins it.
-- A placed Move or Copy shows its temporary blueprint's id (`RGT_...`) as the dismantle label.
 - Items carried onto a copy's belts during a Move reach other players only when the belt next
   sends its full state.
 

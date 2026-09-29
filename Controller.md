@@ -19,9 +19,10 @@ entry.
 
 ## Snap to origin
 
-[Snap to Origin](Snap-To-Origin) has a pad chord of its own: hold `L3` and press `R3`. The game's
-ping is held back while `L3` is down. It can be rebound on the controller page of the options
-menu without touching the keyboard binding.
+[Snap to Origin](Snap-To-Origin) has a pad chord of its own: hold `L3` and press `R3`. While
+`L3` is held, `R3` is the mod's instead of the game's ping; let go and it is the game's again. It
+can be rebound on the controller page of the options menu without touching the keyboard binding.
+The table on [Controls](Controls) has a controller column for every action.
 
 ## Switching devices
 

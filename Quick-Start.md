@@ -28,4 +28,5 @@ Right-click (secondary fire) steps back one stage at any point before the confir
 - `Left Ctrl` on a hovered storage container [targets it](Container-Targeting) so refunds and
   costs go through it.
 
-All keys can be rebound; see [Controls](Controls).
+All keys can be rebound; see [Controls](Controls). On a controller the same commands are in the
+game's build-mode menu; see [Controller and Steam Deck](Controller).

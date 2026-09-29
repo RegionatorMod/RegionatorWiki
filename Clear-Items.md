@@ -17,7 +17,7 @@ then a crate at your feet; fluid is deleted.
   are left alone.
 - Belts and conveyor lifts.
 - Items lying on the ground: stacks you dropped and dismantle leftovers. Never the world's own
-  pickups — berries, nuts and power slugs respawn where they stand and are left alone.
+  pickups: berries, nuts and power slugs respawn where they stand and are left alone.
 - Dismantle crates. A crate disappears with its last item, the same as emptying it by hand; if
   nothing has room, the items end up in a new crate at your feet. Death crates are never
   touched, and a crate you [targeted as a container](Container-Targeting) is spared.

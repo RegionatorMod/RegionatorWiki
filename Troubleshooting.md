@@ -28,7 +28,8 @@ switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
   Manual position can be off screen.
 - **A key does nothing**: keys stand down while any of the mod's dialogs is open, and chords
   need the exact modifier (`Left Ctrl` by default). Check
-  **Options > Keybindings > Regionator** for rebinds.
+  **Options > Keybindings > Regionator** for rebinds. On a controller, add region, filter and
+  target container are entries in the build-mode menu, not buttons.
 - **The blueprint menu appeared before the milestone**: that is the Save Blueprint unlock; see
   [Save Blueprint](Save-Blueprint) for how it behaves and how to take it back.
 - **A Move left the originals standing**: that is the safety rule working, not failing; see

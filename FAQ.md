@@ -19,6 +19,13 @@ whose copy cannot be verified is kept rather than destroyed. See [Move](Move).
 It is standing on its own originals, which a Copy cannot be built over. Nudge it off; see
 [Snap to Origin](Snap-To-Origin).
 
+**Why does a Copy or a Save Blueprint skip the HUB or the Space Elevator?**
+They can only be built once, and a blueprint holding one could build it again, so those modes
+leave them out. A Move still moves them; see [Blueprints and Pricing](Blueprints-And-Pricing).
+
+**Can every Move or Copy start on its originals?**
+Yes: **Start at origin**, per mode in the Mods menu; see [Snap to Origin](Snap-To-Origin).
+
 **Does it work with Infinite Nudge / Infinite Dismantle?**
 Yes. Nudge and rotation mods shape regions and placements like any hologram, and the dismantle
 cap is raised to the same value Infinite Dismantle uses, so they coexist

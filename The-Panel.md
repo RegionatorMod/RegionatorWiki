@@ -7,14 +7,14 @@ a dismantle, placing a Move or Copy, or watching a background job.
 
 ## While shaping a region
 
-- **Title and badge**: "Regionator" with a coloured badge naming the mode (Dismantle red, Clear
-  teal, Fill green, Move orange, Copy purple, Blueprint gold).
-- **Chips**: the region shape, the box size or sphere radius in meters, the region count, a live
+- **Title and badge**: "Regionator" with a coloured badge naming the mode (Dismantle red, Replace
+  blue, Move orange, Copy purple, Blueprint gold, Fill green, Clear light blue).
+- **Chips**: the region shape, the box size or sphere radius in metres, the region count, a live
   count of buildings and types inside, and how many the [type filter](Type-Filtering) removed.
 - **Estimate**: what the confirm would do, for example the dismantle refund and where it goes.
   Short notices (in amber) appear here and give way to the estimate again.
 - **Keys**: the keys that do something right now, as key caps with their action. The caps follow
-  your input device.
+  your input device; on a controller the panel names the build-mode menu button instead.
 
 ## While a dismantle is held
 

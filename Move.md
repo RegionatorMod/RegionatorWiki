@@ -37,10 +37,17 @@ segment can be moved and put back into the gap it came from (see
 - The copies come up facing the way the originals stand, even when the region was drawn at an
   angle, and an off-grid factory keeps its own angle.
 - [Snap to Origin](Snap-To-Origin) places the hologram exactly on the originals and lets you
-  nudge a known distance from there.
+  nudge a known distance from there. With **Start at origin** on (Mods menu, Move section) every
+  Move begins that way without the key press.
 
 ## Safety
 
 A Move never removes what it cannot prove it copied: an original whose copy cannot be found stays
 standing, with everything it holds. The originals are removed without a refund, because the free
 copy is the refund.
+
+## Buildings that can only be built once
+
+The HUB and the Space Elevator move like anything else. A Move that includes one is never kept
+under Move History, even with **Save each Move as a blueprint** on, because a blueprint holding
+one could build it twice; the panel says so.

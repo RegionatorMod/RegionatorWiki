@@ -48,5 +48,5 @@ crate. Under No Build Cost the replacements are free and what they replace is re
 
 ## Left alone
 
-A building a player is aiming at, and anything whose removal would take down something Replace
-cannot put back. The panel lists the reasons when the job ends.
+A power pole a player's hover pack is drawing from, and anything whose removal would take down
+something Replace cannot put back. The panel lists the reasons when the job ends.

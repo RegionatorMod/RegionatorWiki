@@ -18,7 +18,12 @@ cost. Place it as often as you like.
 - The copies face the way the originals stand; aiming at a foundation adopts that floor's angle,
   like any blueprint from the menu.
 - [Snap to Origin](Snap-To-Origin) keeps a Copy locked after each placement, so nudge and place
-  again makes evenly spaced rows. At the originals a Copy is red until nudged off them.
+  again makes evenly spaced rows. At the originals a Copy is red until nudged off them. With
+  **Start at origin** on (Mods menu, Copy section) every Copy begins that way without the key
+  press.
 - The price and what a blueprint carries are on [Blueprints and Pricing](Blueprints-And-Pricing).
 - **Save each Copy as a blueprint** (Mods menu) keeps one under **Regionator > Copy History** in
-  the blueprint menu, named by the time it was made.
+  the blueprint menu, named by the time it was made. Its machines are empty unless **Include
+  items in Blueprint** is on.
+- The HUB and the Space Elevator can only be built once, so a Copy leaves them out of the
+  selection: they are neither outlined nor counted.

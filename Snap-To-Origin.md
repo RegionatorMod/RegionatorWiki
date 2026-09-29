@@ -5,8 +5,8 @@ nudges move it a known distance from where it stands.
 
 ## How to use it
 
-1. While a Move or Copy hologram is up, press **Regionator: snap to origin** (default `Ctrl + H`;
-   pad: hold `L3`, press `R3`).
+1. While a Move or Copy hologram is up, press **Regionator: snap to origin** (`Ctrl + H` on the
+   keyboard, `L3 + R3` on a controller; see [Controls](Controls)).
 2. The hologram sits exactly on the originals, at the angle they stand at, locked with the game's
    own hologram lock.
 3. Nudge it: whole nudge steps along the buildings' own axes, even for buildings off the world
@@ -26,3 +26,9 @@ nudges move it a known distance from where it stands.
   lifts that limit.
 - It does nothing for a blueprint from the menu (there is no origin to snap to), with the region
   hologram up, or while a dialog is open; the log says why.
+
+## Start at origin
+
+**Mods > Regionator > Move > Start at origin** and the same option under **Copy** (both off by
+default) make every placement of that mode begin this way, locked on the originals, without the
+key press. The key still works: press it after nudging to return to the originals.
