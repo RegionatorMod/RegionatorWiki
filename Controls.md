@@ -11,7 +11,7 @@ hologram is up; see [Controller and Steam Deck](Controller).
 | Regionator: filter building types | `U` | Build-mode menu: **Filter types** |
 | Regionator: target hovered container | `Left Ctrl` | Build-mode menu: **Target container** |
 | Regionator: add region | `Ctrl + N` | Build-mode menu: **Add region** |
-| Regionator: toggle region shape (box / sphere) | `Ctrl + B` | No pad entry |
+| Regionator: toggle region shape (box / sphere) | `Ctrl + B` | `L3 + Y` (hold `L3`, press `Y`) |
 | Regionator: snap to origin | `Ctrl + H` | `L3 + R3` (hold `L3`, press `R3`) |
 
 Everything else is the game's own build-gun controls, unchanged: primary fire places anchors and
@@ -26,8 +26,8 @@ to any chord you rebind to.
 
 ## Rebinding notes
 
-- Snap to origin is the one action with a controller key of its own. It appears on both the
-  keyboard and the controller pages of the options menu, and each device's binding is changed on
-  its own.
+- Toggle region shape and snap to origin are the two actions with a controller key of their own.
+  Each appears on both the keyboard and the controller pages of the options menu, and each
+  device's binding is changed on its own.
 - Mouse buttons work as bindings.
 - Resetting a binding restores the defaults above.

@@ -22,7 +22,8 @@ Right-click (secondary fire) steps back one stage at any point before the confir
 
 - The build-mode key picks what a confirm does: Dismantle, Replace, Move, Copy, Save Blueprint,
   Fill inputs or Clear items. See each mode's page.
-- `Ctrl + B` switches the region between a box and a [sphere](Regions).
+- `Ctrl + B` (`L3 + Y` on a controller) switches the region between a box and a
+  [sphere](Regions).
 - `Ctrl + N` freezes the current region and starts [another one](Regions).
 - `U` opens the [type filter](Type-Filtering).
 - `Left Ctrl` on a hovered storage container [targets it](Container-Targeting) so refunds and

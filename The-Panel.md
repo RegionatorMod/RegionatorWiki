@@ -14,7 +14,8 @@ a dismantle, placing a Move or Copy, or watching a background job.
 - **Estimate**: what the confirm would do, for example the dismantle refund and where it goes.
   Short notices (in amber) appear here and give way to the estimate again.
 - **Keys**: the keys that do something right now, as key caps with their action. The caps follow
-  your input device; on a controller the panel names the build-mode menu button instead.
+  your input device; on a controller the panel names the build-mode menu button and the two pad
+  chords.
 
 ## While a dismantle is held
 

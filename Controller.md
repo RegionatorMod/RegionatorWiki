@@ -14,15 +14,19 @@ the game's build-mode menu (hold the build-mode button), after the modes:
 - **Filter types**
 - **Target container** (when aiming at one)
 
-Choosing one runs it once and the menu shows the current mode again. The shape toggle has no pad
-entry.
+Choosing one runs it once and the menu shows the current mode again.
 
-## Snap to origin
+## Chords
 
-[Snap to Origin](Snap-To-Origin) has a pad chord of its own: hold `L3` and press `R3`. While
-`L3` is held, `R3` is the mod's instead of the game's ping; let go and it is the game's again. It
-can be rebound on the controller page of the options menu without touching the keyboard binding.
-The table on [Controls](Controls) has a controller column for every action.
+Two commands have pad keys of their own, both chords on the left stick click:
+
+- Hold `L3` and press `Y` to switch the region between a box and a [sphere](Regions).
+- Hold `L3` and press `R3` for [Snap to Origin](Snap-To-Origin).
+
+While `L3` is held, `Y` and `R3` are the mod's instead of the game's inventory and ping; let go
+and they are the game's again. Both can be rebound on the controller page of the options menu
+without touching the keyboard bindings. The table on [Controls](Controls) has a controller column
+for every action.
 
 ## Switching devices
 
