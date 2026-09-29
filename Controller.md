@@ -7,8 +7,9 @@ build menu or quick switch.
 
 ## The build-mode menu
 
-No pad button is free while a hologram is up, so on a gamepad only, three commands are added to
-the game's build-mode menu (hold the build-mode button), after the modes:
+No pad button is free while a hologram is up, so on a gamepad only, three commands are also
+added to the game's build-mode menu (hold the build-mode button; the [panel](The-Panel) names
+it), after the modes:
 
 - **Add region**
 - **Filter types**
@@ -18,15 +19,19 @@ Choosing one runs it once and the menu shows the current mode again.
 
 ## Chords
 
-Two commands have pad keys of their own, both chords on the left stick click:
+Every command has a pad key of its own, a chord on the left stick click. Hold `L3` and press:
 
-- Hold `L3` and press `Y` to switch the region between a box and a [sphere](Regions).
-- Hold `L3` and press `R3` for [Snap to Origin](Snap-To-Origin).
+- `LB` to equip the tool or put it away.
+- `X` to open the [type filter](Type-Filtering).
+- `RB` to [target the container](Container-Targeting) you are aiming at.
+- `A` to freeze the region and [add another](Regions).
+- `Y` to switch the region between a box and a [sphere](Regions).
+- `R3` for [Snap to Origin](Snap-To-Origin).
 
-While `L3` is held, `Y` and `R3` are the mod's instead of the game's inventory and ping; let go
-and they are the game's again. Both can be rebound on the controller page of the options menu
-without touching the keyboard bindings. The table on [Controls](Controls) has a controller column
-for every action.
+While `L3` is held those buttons are the mod's instead of the game's; let go and they are the
+game's again. All six can be rebound on the controller page of the options menu without touching
+the keyboard bindings. The table on [Controls](Controls) has a controller column for every
+action.
 
 ## Switching devices
 
