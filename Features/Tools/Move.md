@@ -43,7 +43,7 @@ segment can be moved and put back into the gap it came from (see
 ## Large selections
 
 A Move with hundreds of foundation pieces is written in the background first: the
-[panel](The-Panel) counts "Preparing" and "Finishing", then the hologram comes up. With
+[HUD](Regionator-HUD) counts "Preparing" and "Finishing", then the hologram comes up. With
 thousands of pieces the game pauses briefly while it builds the hologram.
 
 ## Safety
@@ -56,4 +56,4 @@ copy is the refund.
 
 The HUB and the Space Elevator move like anything else. A Move that includes one is never kept
 under Move History, even with **Save each Move as a blueprint** on, because a blueprint holding
-one could build it twice; the panel says so.
+one could build it twice; the HUD says so.

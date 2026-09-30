@@ -25,7 +25,7 @@ from the blueprint menu as much as a Move or a Copy.
   counts the targets too.
 - **[Fill Inputs](Fill-Inputs)**: items come from the targets first, then your inventory.
 
-Before you confirm, the [panel](The-Panel) says where things will end up, naming only the
+Before you confirm, the [HUD](Regionator-HUD) says where things will end up, naming only the
 destinations that receive something.
 
 ## With the game's own dismantle tool

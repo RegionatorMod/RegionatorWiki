@@ -6,14 +6,14 @@ copy, blueprint, clear, fill or replace everything inside it, at once.
 Regionator is a bulk-editing tool, not a creative mode. Costs are paid, refunds follow the game's
 own rules, and everything it builds is a normal building the vanilla game can load without the mod.
 
-> [image placeholder: hero shot, a box region drawn over a factory row with the panel visible]
+> [image placeholder: hero shot, a box region drawn over a factory row with the HUD visible]
 
 ## Getting started
 
 - [Quick Start](Quick-Start): equip the tool and run your first dismantle in a minute.
 - [Controls](Controls): every key, what it does, and how to rebind it.
 - [Controller and Steam Deck](Controller): the same tool on a gamepad.
-- [The Panel](The-Panel): reading the on-screen readout.
+- [Regionator HUD](Regionator-HUD): reading the on-screen readout.
 - [FAQ](FAQ): common questions.
 
 ## Features

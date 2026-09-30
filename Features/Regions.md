@@ -13,7 +13,7 @@ machine without clipping it leaves the machine out, whatever angle either of the
 
 1. Click to fix the first corner.
 2. The box previews between that corner and the cursor; everything inside is outlined and the
-   [panel](The-Panel) counts it. Click (or press the hologram lock key) to fix the second corner.
+   [HUD](Regionator-HUD) counts it. Click (or press the hologram lock key) to fix the second corner.
 3. The region locks. The game's nudge keys move it; the build-mode key picks what they move:
    **Move Region**, **Move Anchor 1** or **Move Anchor 2** (the anchors that would move are
    marked red; on a controller press `L3 + B` instead, see
@@ -28,7 +28,7 @@ Nudge, pitch and roll modes) shape the region the same way.
 
 `Ctrl + B` (Regionator: toggle region shape; `L3 + Y` on a controller) switches between box and
 sphere; the shape sticks for later regions and the next equip. The first click sets the centre,
-the second the radius, which the panel reads out in metres. In the adjust step the nudge targets
+the second the radius, which the HUD reads out in metres. In the adjust step the nudge targets
 are **Move Center** and **Adjust Radius**; a nudge along the line from the centre changes the
 radius by exactly the nudge step. Scrolling leaves a sphere as it is.
 
@@ -46,7 +46,7 @@ before the new region's first anchor is down drops it and takes up the previous 
 
 All your regions together may enclose no more than the volume limit, a 500 x 500 x 500 m box or
 the same volume in any shape by default (**Selection volume limit factor** in the Mods menu).
-Past it the region in hand turns red and the [panel](The-Panel) says so; confirming waits until
+Past it the region in hand turns red and the [HUD](Regionator-HUD) says so; confirming waits until
 the selection fits again. Where regions overlap, the shared space counts once. See
 [Limits and Known Issues](Limits-And-Known-Issues).
 

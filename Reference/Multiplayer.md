@@ -11,14 +11,14 @@ who asked for it.
 
 ## What to expect
 
-- Selection, regions, the panel and all keys are local to you; two players can use the tool at
+- Selection, regions, the HUD and all keys are local to you; two players can use the tool at
   the same time.
 - Costs and refunds are attributed to the player who confirmed, through their
   [targeted containers](Container-Targeting) and inventory.
 - The Selection, Dismantle and volume limits in force are the host's; your own settings are
   ignored while you are connected. See [Limits and Known Issues](Limits-And-Known-Issues).
 - A large selection is sent to the host in pieces. If the host stops answering for 30 seconds
-  the panel says "The selection did not reach the host. Try again."
+  the HUD says "The selection did not reach the host. Try again."
 
 ## Known soft spots
 

@@ -13,7 +13,7 @@ vertical-nudge toggle switches up and down between forward and back and up and d
 
 While locked, the D-pad is a nudge, so the nudge target (Move Region, Move Anchor 1, Move
 Anchor 2) is picked with `L3 + B`, which does what a tap of the build-mode key does; the
-[panel](The-Panel) names it in that step. Unlocking releases the second anchor to the cursor
+[HUD](Regionator-HUD) names it in that step. Unlocking releases the second anchor to the cursor
 again, as on the keyboard.
 
 ## Chords
@@ -47,7 +47,7 @@ these while a pad is in use.
 
 ## Switching devices
 
-The [panel](The-Panel) shows the pad chords while a pad is in use, and switches to keyboard key
+The [HUD](Regionator-HUD) shows the pad chords while a pad is in use, and switches to keyboard key
 caps the moment you pick up the mouse, including mid-hologram.
 
-> [screenshot placeholder: the panel with pad button captions while placing a region]
+> [screenshot placeholder: the HUD with pad button captions while placing a region]

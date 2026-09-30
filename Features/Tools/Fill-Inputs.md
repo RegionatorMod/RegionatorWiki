@@ -20,4 +20,4 @@ Only fillable buildings are selected. The [type filter](Type-Filtering) popup ga
 ## Notes
 
 - Machines only receive what their current recipe accepts.
-- Large fills run as a background job with the [panel](The-Panel) showing progress.
+- Large fills run as a background job with the [HUD](Regionator-HUD) showing progress.

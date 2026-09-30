@@ -1,9 +1,9 @@
-# The Panel
+# Regionator HUD
 
-The panel is the mod's on-screen readout. It follows what you are doing: shaping a region, holding
+The HUD is the mod's on-screen readout. It follows what you are doing: shaping a region, holding
 a dismantle, placing a Move or Copy, or watching a background job.
 
-> [screenshot placeholder: the region panel with the mode badge, chips row, estimate and key caps]
+> [screenshot placeholder: the region HUD with the mode badge, chips row, estimate and key caps]
 
 ## While shaping a region
 
@@ -36,6 +36,6 @@ Save Blueprint with hundreds of foundation pieces ("Preparing N of M", then "Fin
 
 ## Position and size
 
-Under **Mods > Regionator > HUD**: show or hide the panel, pick one of nine positions or place it
+Under **Mods > Regionator > HUD**: show or hide the HUD, pick one of nine positions or place it
 manually in percent, and scale it from 1 to 10. Changes apply immediately, including from the
 pause menu.

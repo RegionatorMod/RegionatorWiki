@@ -24,7 +24,7 @@ switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
 
 ## Common questions
 
-- **The panel is gone**: check **Mods > Regionator > HUD > Show the panel**, and its position; a
+- **The HUD is gone**: check **Mods > Regionator > HUD > Show the panel**, and its position; a
   Manual position can be off screen.
 - **A key does nothing**: keys stand down while any of the mod's dialogs is open, and chords
   need the exact modifier (`Left Ctrl` by default). Check

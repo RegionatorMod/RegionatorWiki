@@ -4,7 +4,7 @@
 - [Quick Start](Quick-Start)
 - [Controls](Controls)
 - [Controller and Steam Deck](Controller)
-- [The Panel](The-Panel)
+- [Regionator HUD](Regionator-HUD)
 - [FAQ](FAQ)
 
 **Features**
