@@ -42,6 +42,14 @@ every region: a building in two of them counts once, boxes and spheres mix freel
 the angle it was drawn at. Nudging and rotating only move the region being shaped. Stepping back
 before the new region's first anchor is down drops it and takes up the previous one again.
 
+## How much a selection may enclose
+
+All your regions together may enclose no more than the volume limit, a 500 x 500 x 500 m box or
+the same volume in any shape by default (**Selection volume limit factor** in the Mods menu).
+Past it the region in hand turns red and the [panel](The-Panel) says so; confirming waits until
+the selection fits again. Where regions overlap, the shared space counts once. See
+[Limits and Known Issues](Limits-And-Known-Issues).
+
 ## Rotation and what it means
 
 The angle a region is drawn at only selects buildings. A [Move](Move) or [Copy](Copy) of a

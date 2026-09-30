@@ -40,6 +40,12 @@ segment can be moved and put back into the gap it came from (see
   nudge a known distance from there. With **Start at origin** on (Mods menu, Move section) every
   Move begins that way without the key press.
 
+## Large selections
+
+A Move with hundreds of foundation pieces is written in the background first: the
+[panel](The-Panel) counts "Preparing" and "Finishing", then the hologram comes up. With
+thousands of pieces the game pauses briefly while it builds the hologram.
+
 ## Safety
 
 A Move never removes what it cannot prove it copied: an original whose copy cannot be found stays

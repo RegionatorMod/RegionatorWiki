@@ -12,7 +12,10 @@ a dismantle, placing a Move or Copy, or watching a background job.
 - **Chips**: the region shape, the box size or sphere radius in metres, the region count, a live
   count of buildings and types inside, and how many the [type filter](Type-Filtering) removed.
 - **Estimate**: what the confirm would do, for example the dismantle refund and where it goes.
-  Short notices (in amber) appear here and give way to the estimate again.
+  Short notices (in amber) appear here and give way to the estimate again. Over the volume
+  limit the line reads "Over the volume limit, shrink selection to confirm" and stays until the
+  selection fits; the region in hand is red at the same time (see
+  [Limits and Known Issues](Limits-And-Known-Issues)).
 - **Keys**: the keys that do something right now, as key caps with their action. The caps follow
   your input device; on a controller the caps name the pad chords.
 
@@ -28,7 +31,8 @@ The hologram status, and with containers targeted, what is paid from or refunded
 ## During a background job
 
 A progress bar that climbs steadily with the work done and a detail line naming the step. Large
-dismantles, Clear and Fill run this way.
+dismantles, Clear and Fill run this way, and so does writing the blueprint for a Move, Copy or
+Save Blueprint with hundreds of foundation pieces ("Preparing N of M", then "Finishing N of M").
 
 ## Position and size
 

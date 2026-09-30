@@ -26,8 +26,10 @@ Hands the whole selection to the game's own dismantle tool, pre-selected.
 100 buildings or more are dismantled in the background: the build gun is put away and the panel
 shows progress. To stop a running dismantle, equip the build gun and press secondary fire.
 
-The game caps how many buildings one dismantle can hold; the mod raises that cap to 100000, the
-same value Infinite Dismantle uses, so the two mods coexist.
+The game caps how many buildings one dismantle can hold; the mod raises that cap to the
+**Dismantle limit** in the Mods menu, 100000 by default (the value Infinite Dismantle uses, so
+the two mods coexist) and up to 1000000. A Dismantle selection is also cut at that limit. In
+[multiplayer](Multiplayer) the host's limit applies.
 
 ## Notes
 

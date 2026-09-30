@@ -27,3 +27,6 @@ cost. Place it as often as you like.
   items in Blueprint** is on.
 - The HUB and the Space Elevator can only be built once, so a Copy leaves them out of the
   selection: they are neither outlined nor counted.
+- A Copy with hundreds of foundation pieces is written in the background first: the
+  [panel](The-Panel) counts "Preparing" and "Finishing", then the hologram comes up. With
+  thousands of pieces the game pauses briefly while it builds the hologram.

@@ -34,6 +34,17 @@ is the mod's whenever `L3` is held, so that equip works from anywhere. All of th
 on the controller page of the options menu without touching the keyboard bindings. The table on
 [Controls](Controls) has a controller column for every action.
 
+## Popups on a pad
+
+The [type filter](Type-Filtering), the [Replace](Replace) popup and the
+[Save Blueprint](Save-Blueprint) dialog work like the game's own popups on a pad. The left stick
+moves between fields, and a frame marks the one in focus. D-pad down jumps to the next section,
+for example from the name straight to the icon list. `A` ticks or chooses, and on a text field
+opens the on-screen keyboard. Where no field takes it, `A` confirms the popup and `B` cancels
+it, as in the game's own popups; the empty strip at the end of each popup is there so a D-pad
+press past the last field always reaches that. A hint row at the bottom of the popup lists
+these while a pad is in use.
+
 ## Switching devices
 
 The [panel](The-Panel) shows the pad chords while a pad is in use, and switches to keyboard key

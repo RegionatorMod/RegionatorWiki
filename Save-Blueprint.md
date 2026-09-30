@@ -20,6 +20,8 @@ and the region can be any size.
 - What it carries and costs is on [Blueprints and Pricing](Blueprints-And-Pricing).
 - The HUB and the Space Elevator can only be built once, so they are left out of the selection.
 - Saving a blueprint moves no items, so the target-container key is not offered in this mode.
+- A region with hundreds of foundation pieces is written in the background: the
+  [panel](The-Panel) counts "Preparing" and "Finishing" before the blueprint is filed.
 - The game hides the blueprint menu until the blueprint milestone. While Save Blueprint is
   enabled (Mods menu) the menu is unlocked; switching the mode off before reaching the milestone
   hides it again.

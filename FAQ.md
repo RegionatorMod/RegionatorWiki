@@ -45,5 +45,12 @@ Targeted containers first, then your inventory, then a dismantle crate at your f
 [Container Targeting](Container-Targeting).
 
 **How big can a selection be?**
-5000 buildings plus 30000 foundation-type pieces per request; see
+Up to the **Selection limit** in the Mods menu, 35000 buildings and foundation-type pieces
+together by default, and no larger than the volume limit, a 500 x 500 x 500 m box or the same
+volume in any shape by default. Both can be raised; see
+[Limits and Known Issues](Limits-And-Known-Issues) and the [Options Reference](Options-Reference).
+
+**Why is my region red, and why does confirm do nothing?**
+The selection is over the volume limit. Shrink the region, remove one, or raise the
+**Selection volume limit factor** in the Mods menu; see
 [Limits and Known Issues](Limits-And-Known-Issues).
