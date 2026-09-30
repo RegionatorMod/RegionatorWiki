@@ -35,4 +35,6 @@ switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
 ## Reporting a bug
 
 Include the log (the `LogRegionator` lines around the time it happened), what mode you were in,
-and roughly what the selection contained. See the mod page for where to report.
+and roughly what the selection contained, and open an issue at
+https://github.com/RegionatorMod/RegionatorWiki/issues (the Get Support button on the mod's entry
+in the Mods menu goes there too).
