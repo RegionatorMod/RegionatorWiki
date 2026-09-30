@@ -41,6 +41,8 @@ switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
 - **A Move left the originals standing**: that is the safety rule working, not failing; see
   [Move](Move). The log names the reason.
 
+Every console switch and command is listed on [Console Commands](Console-Commands).
+
 ## Reporting a bug
 
 Include the log (the `LogRegionator` lines around the time it happened), what mode you were in,

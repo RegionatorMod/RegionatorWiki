@@ -41,3 +41,4 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 - [Limits and Known Issues](Limits-And-Known-Issues)
 - [Multiplayer](Multiplayer)
 - [Troubleshooting](Troubleshooting)
+- [Console Commands](Console-Commands): the diagnostic switches and commands, all optional.
