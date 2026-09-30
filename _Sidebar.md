@@ -10,13 +10,14 @@
 **Features**
 
 - [Regions](Regions)
-- [Dismantle](Dismantle)
-- [Replace](Replace)
-- [Move](Move)
-- [Copy](Copy)
-- [Save Blueprint](Save-Blueprint)
-- [Fill Inputs](Fill-Inputs)
-- [Clear Items](Clear-Items)
+- Tools
+  - [Dismantle](Dismantle)
+  - [Replace](Replace)
+  - [Move](Move)
+  - [Copy](Copy)
+  - [Save Blueprint](Save-Blueprint)
+  - [Fill Inputs](Fill-Inputs)
+  - [Clear Items](Clear-Items)
 - [Container Targeting](Container-Targeting)
 - [Type Filtering](Type-Filtering)
 - [Snap to Origin](Snap-To-Origin)

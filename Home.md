@@ -19,6 +19,12 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 ## Features
 
 - [Regions](Regions): boxes and spheres, several per selection, shaped with the game's own controls.
+- [Container Targeting](Container-Targeting): route refunds and costs through storage containers.
+- [Type Filtering](Type-Filtering): leave building types out of the selection.
+- [Snap to Origin](Snap-To-Origin): place a Move or Copy a known distance from where it stands.
+
+### Tools
+
 - [Dismantle](Dismantle): hand the whole selection to the game's dismantle tool, pre-selected.
 - [Replace](Replace): swap building types, materials, colours and recipes in place.
 - [Move](Move): pick a selection up and place it somewhere else, contents and all.
@@ -27,9 +33,6 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 - [Fill Inputs](Fill-Inputs): feed every machine in the region from containers you pick.
 - [Clear Items](Clear-Items): empty machines, belts, pipes, items on the ground and dismantle
   crates, with an item filter.
-- [Container Targeting](Container-Targeting): route refunds and costs through storage containers.
-- [Type Filtering](Type-Filtering): leave building types out of the selection.
-- [Snap to Origin](Snap-To-Origin): place a Move or Copy a known distance from where it stands.
 
 ## Reference
 
