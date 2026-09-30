@@ -1,0 +1,32 @@
+**Getting Started**
+
+- [Home](Home)
+- [Quick Start](Quick-Start)
+- [Controls](Controls)
+- [Controller and Steam Deck](Controller)
+- [Regionator HUD](Regionator-HUD)
+- [FAQ](FAQ)
+
+**Features**
+
+- [Regions](Regions)
+- Tools
+  - [Dismantle](Dismantle)
+  - [Replace](Replace)
+  - [Move](Move)
+  - [Copy](Copy)
+  - [Save Blueprint](Save-Blueprint)
+  - [Fill Inputs](Fill-Inputs)
+  - [Clear Items](Clear-Items)
+- [Container Targeting](Container-Targeting)
+- [Type Filtering](Type-Filtering)
+- [Snap to Origin](Snap-To-Origin)
+
+**Reference**
+
+- [Blueprints and Cost](Blueprints-And-Cost)
+- [Options Reference](Options-Reference)
+- [Limits and Known Issues](Limits-And-Known-Issues)
+- [Multiplayer](Multiplayer)
+- [Troubleshooting](Troubleshooting)
+- [Console Commands](Console-Commands)
