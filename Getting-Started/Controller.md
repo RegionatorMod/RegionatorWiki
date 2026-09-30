@@ -32,7 +32,8 @@ All but equip only count while the tool, a blueprint hologram or the dismantle t
 Anywhere else `L3` and those buttons are the game's, so sprinting and jumping are untouched; `LB`
 is the mod's whenever `L3` is held, so that equip works from anywhere. All of them can be rebound
 on the controller page of the options menu without touching the keyboard bindings. The table on
-[Controls](Controls) has a controller column for every action.
+[Controls](Controls) has a controller column for every action. The [HUD](Regionator-HUD) shows
+the pad chords while a pad is in use and keyboard key caps as soon as you pick up the mouse.
 
 ## Popups on a pad
 
@@ -44,10 +45,3 @@ opens the on-screen keyboard. Where no field takes it, `A` confirms the popup an
 it, as in the game's own popups; the empty strip at the end of each popup is there so a D-pad
 press past the last field always reaches that. A hint row at the bottom of the popup lists
 these while a pad is in use.
-
-## Switching devices
-
-The [HUD](Regionator-HUD) shows the pad chords while a pad is in use, and switches to keyboard key
-caps the moment you pick up the mouse, including mid-hologram.
-
-> [screenshot placeholder: the HUD with pad button captions while placing a region]

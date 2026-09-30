@@ -29,10 +29,5 @@ shows progress. To stop a running dismantle, equip the build gun and press secon
 The game caps how many buildings one dismantle can hold; the mod raises that cap to the
 **Dismantle limit** in the Mods menu, 100000 by default (the value Infinite Dismantle uses, so
 the two mods coexist) and up to 1000000. A Dismantle selection is also cut at that limit. In
-[multiplayer](Multiplayer) the host's limit applies.
-
-## Notes
-
-- Refunds follow the game's rules exactly; the mod adds routing, not new refunds.
-- The refund estimate is skipped above 3000 buildings to keep the HUD responsive; the dismantle
-  itself is unaffected.
+[multiplayer](Multiplayer) the host's limit applies. Above 3000 buildings the refund estimate is
+skipped; the dismantle itself is unaffected.

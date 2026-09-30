@@ -22,8 +22,6 @@ who asked for it.
 
 ## Known soft spots
 
-- Nothing has been verified in a real multiplayer session yet, so treat every multiplayer oddity
-  as worth reporting.
 - On a dedicated server, selection can miss buildings your game has not received yet.
 - Items carried onto a copy's belts during a Move reach other players only when the belt next
   sends its full state.

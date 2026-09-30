@@ -34,8 +34,5 @@ A progress bar that climbs steadily with the work done and a detail line naming 
 dismantles, Clear and Fill run this way, and so does writing the blueprint for a Move, Copy or
 Save Blueprint with hundreds of foundation pieces ("Preparing N of M", then "Finishing N of M").
 
-## Position and size
-
-Under **Mods > Regionator > HUD**: show or hide the HUD, pick one of nine positions or place it
-manually in percent, and scale it from 1 to 10. Changes apply immediately, including from the
-pause menu.
+Where the HUD sits and how large it is are set under **Mods > Regionator > HUD**; see the
+[Options Reference](Options-Reference).

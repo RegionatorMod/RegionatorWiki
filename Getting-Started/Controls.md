@@ -26,10 +26,3 @@ locked region's D-pad nudges, so there the nudge target is picked with `L3 + B` 
 The game's quick search stays on a plain `N` and its holster on a plain `H`. While `Left Ctrl` is
 held, `N`, `B` and `H` are the mod's; letting go of `Left Ctrl` gives them back. The same applies
 to any chord you rebind to.
-
-## Rebinding notes
-
-- Every action appears on both the keyboard and the controller pages of the options menu, and
-  each device's binding is changed on its own.
-- Mouse buttons work as bindings.
-- Resetting a binding restores the defaults above.

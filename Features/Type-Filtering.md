@@ -14,8 +14,6 @@ Leave building types out of the selection, in every mode.
 ## Notes
 
 - The filter lasts until you change it, across regions and equips.
-- The key is only offered when there is something in the region to filter; with everything
-  filtered out it is still offered, so the filter can be undone.
 - In [Fill Inputs](Fill-Inputs) the popup also lists the **items to fill**, and in
   [Clear Items](Clear-Items) the **items to clear**, each with its own checkboxes. The two item
   lists are remembered separately.

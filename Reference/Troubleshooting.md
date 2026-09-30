@@ -3,17 +3,8 @@
 ## Where the log is
 
 `%LOCALAPPDATA%\FactoryGame\Saved\Logs\FactoryGame.log`. The mod logs under `LogRegionator`: one
-line per operation with its outcome, plus warnings when something is refused or falls back.
-
-More detail: enter `log LogRegionator Verbose` in the game console, or put
-`LogRegionator=Verbose` under `[Core.Log]` in the game's `Engine.ini`. Verbose adds per-frame and
-per-building detail.
-
-## Timing a slow dismantle
-
-The console variable `Regionator.TraceDismantle=1` (set at startup, for example with
-`-dpcvars=Regionator.TraceDismantle=1` on the launch command line) logs a timeline of each server
-dismantle call.
+line per operation with its outcome, plus warnings when something is refused or falls back. How
+to raise the detail, and the diagnostic switches, are on [Console Commands](Console-Commands).
 
 ## A blueprint hologram vanishes at a Flat Roof
 
@@ -40,8 +31,6 @@ switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
   [Save Blueprint](Save-Blueprint) for how it behaves and how to take it back.
 - **A Move left the originals standing**: that is the safety rule working, not failing; see
   [Move](Move). The log names the reason.
-
-Every console switch and command is listed on [Console Commands](Console-Commands).
 
 ## Reporting a bug
 

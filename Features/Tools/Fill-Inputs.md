@@ -16,8 +16,3 @@ Feeds every manufacturer input and fuel generator in the region from
 
 Only fillable buildings are selected. The [type filter](Type-Filtering) popup gains an
 **Items to fill** list beside the building types: an unticked item is not put into any machine.
-
-## Notes
-
-- Machines only receive what their current recipe accepts.
-- Large fills run as a background job with the [HUD](Regionator-HUD) showing progress.

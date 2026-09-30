@@ -26,5 +26,3 @@ including from the pause menu.
   ignored while you are connected.
 - Disabling **Enable Save Blueprint** before the blueprint milestone hides the blueprint menu
   again; see the note on [Save Blueprint](Save-Blueprint) about removing the mod.
-- Keybindings are not here; they are under **Options > Keybindings > Regionator**
-  (see [Controls](Controls)).
