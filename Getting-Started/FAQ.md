@@ -1,7 +1,7 @@
 # FAQ
 
 **Is this a cheat mod?**
-No. Dismantles refund what the game refunds, a Copy costs the full build price, a Move is free
+No. Dismantles refund what the game refunds, a Copy costs the full build cost, a Move is free
 because the originals are taken in exchange, and Clear deletes fluid rather than refunding it.
 The one convenience is that Save Blueprint does not need the blueprint designer.
 
@@ -21,7 +21,7 @@ It is standing on its own originals, which a Copy cannot be built over. Nudge it
 
 **Why does a Copy or a Save Blueprint skip the HUB or the Space Elevator?**
 They can only be built once, and a blueprint holding one could build it again, so those modes
-leave them out. A Move still moves them; see [Blueprints and Pricing](Blueprints-And-Pricing).
+leave them out. A Move still moves them; see [Blueprints and Cost](Blueprints-And-Cost).
 
 **Can every Move or Copy start on its originals?**
 Yes: **Start at origin**, per mode in the Mods menu; see [Snap to Origin](Snap-To-Origin).

@@ -6,7 +6,7 @@ cost. Place it as often as you like.
 ## How to use it
 
 1. Pick **Copy**, draw a [region](Regions), confirm.
-2. Place the hologram; each placement costs the blueprint's price, paid from
+2. Place the hologram; each placement costs what the blueprint's buildings cost to build, paid from
    [targeted containers](Container-Targeting), then your inventory and the Dimensional Depot.
 3. Put the hologram away when you are done; that deletes the temporary blueprint.
 
@@ -21,7 +21,7 @@ cost. Place it as often as you like.
   again makes evenly spaced rows. At the originals a Copy is red until nudged off them. With
   **Start at origin** on (Mods menu, Copy section) every Copy begins that way without the key
   press.
-- The price and what a blueprint carries are on [Blueprints and Pricing](Blueprints-And-Pricing).
+- The cost and what a blueprint carries are on [Blueprints and Cost](Blueprints-And-Cost).
 - **Save each Copy as a blueprint** (Mods menu) keeps one under **Regionator > Copy History** in
   the blueprint menu, named by the time it was made. Its machines are empty unless **Include
   items in Blueprint** is on.

@@ -5,7 +5,7 @@ including from the pause menu.
 
 | Section | Option | Default | What it does |
 |---|---|---|---|
-| General | Include items in Blueprint | Off | Blueprints written by Move, Copy and Save Blueprint keep machine and container contents; see [Blueprints and Pricing](Blueprints-And-Pricing). |
+| General | Include items in Blueprint | Off | Blueprints written by Move, Copy and Save Blueprint keep machine and container contents; see [Blueprints and Cost](Blueprints-And-Cost). |
 | General | Selection limit | 35000 | How many buildings and foundation pieces one selection can hold, from 1000 to 1000000. Anything past the limit is left out. Larger selections take longer to send and prepare. |
 | General | Dismantle limit | 100000 | How many buildings the game's dismantle tool can hold at once, from 1000 to 1000000; see [Dismantle](Dismantle). |
 | General | Selection volume limit factor | 500 | The largest space one selection can cover, as the side of a cube in metres, from 100 to 10000: 500 allows 500 x 500 x 500 m, in any shape or split over several regions. Over it the region turns red and cannot be confirmed; see [Limits and Known Issues](Limits-And-Known-Issues). |

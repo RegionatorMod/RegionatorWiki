@@ -36,7 +36,7 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 
 ## Reference
 
-- [Blueprints and Pricing](Blueprints-And-Pricing): what a blueprint carries and what it costs.
+- [Blueprints and Cost](Blueprints-And-Cost): what a blueprint carries and what it costs.
 - [Options Reference](Options-Reference): every Mods menu option.
 - [Limits and Known Issues](Limits-And-Known-Issues)
 - [Multiplayer](Multiplayer)

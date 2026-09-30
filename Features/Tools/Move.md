@@ -28,7 +28,7 @@ A belt or power line with an end outside the selection has no copy and stays whe
 line the game takes down together with its building is refunded. A Move links the copies' belt
 and pipe ends to what the originals were connected to outside, once the originals are gone, so a
 segment can be moved and put back into the gap it came from (see
-[Blueprints and Pricing](Blueprints-And-Pricing) for Auto-Connect).
+[Blueprints and Cost](Blueprints-And-Cost) for Auto-Connect).
 
 ## Placement
 

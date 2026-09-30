@@ -1,19 +1,19 @@
-# Blueprints and Pricing
+# Blueprints and Cost
 
 [Move](Move), [Copy](Copy) and [Save Blueprint](Save-Blueprint) all write a blueprint on the
 host; this page is what that blueprint carries and costs.
 
-## The price
+## The cost
 
-A blueprint's price is the buildings' build cost plus the machines' power shards and Somersloops,
+A blueprint's cost is the buildings' build cost plus the machines' power shards and Somersloops,
 which every blueprint carries so that a copy keeps its overclock. Items on belts are never part
-of a blueprint. A Move is free; a Copy and a menu placement pay the price per placement.
+of a blueprint. A Move is free; a Copy and a menu placement pay that cost per placement.
 
 ## Include items in Blueprint
 
 **Mods > Regionator > General > Include items in Blueprint** (off by default) makes Move, Copy
 and Save Blueprint also record what the machines and containers hold, the way the game's own
-blueprints do, and counts those items into the price, so nothing is created from nowhere. The
+blueprints do, and counts those items into the cost, so nothing is created from nowhere. The
 setting is read on your own machine, so in a shared world your answer travels with your request.
 A Move carries its originals' contents by hand either way.
 

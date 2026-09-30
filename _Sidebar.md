@@ -24,7 +24,7 @@
 
 **Reference**
 
-- [Blueprints and Pricing](Blueprints-And-Pricing)
+- [Blueprints and Cost](Blueprints-And-Cost)
 - [Options Reference](Options-Reference)
 - [Limits and Known Issues](Limits-And-Known-Issues)
 - [Multiplayer](Multiplayer)
