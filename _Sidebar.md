@@ -1,4 +1,4 @@
-**Regionator**
+**Getting Started**
 
 - [Home](Home)
 - [Quick Start](Quick-Start)

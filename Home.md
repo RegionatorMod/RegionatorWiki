@@ -8,7 +8,7 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 
 > [image placeholder: hero shot, a box region drawn over a factory row with the panel visible]
 
-## New to Regionator?
+## Getting started
 
 - [Quick Start](Quick-Start): equip the tool and run your first dismantle in a minute.
 - [Controls](Controls): every key, what it does, and how to rebind it.
@@ -16,7 +16,7 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 - [The Panel](The-Panel): reading the on-screen readout.
 - [FAQ](FAQ): common questions.
 
-## Main features
+## Features
 
 - [Regions](Regions): boxes and spheres, several per selection, shaped with the game's own controls.
 - [Dismantle](Dismantle): hand the whole selection to the game's dismantle tool, pre-selected.
@@ -31,7 +31,7 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 - [Type Filtering](Type-Filtering): leave building types out of the selection.
 - [Snap to Origin](Snap-To-Origin): place a Move or Copy a known distance from where it stands.
 
-## Useful references
+## Reference
 
 - [Blueprints and Pricing](Blueprints-And-Pricing): what a blueprint carries and what it costs.
 - [Options Reference](Options-Reference): every Mods menu option.
