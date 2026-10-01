@@ -30,6 +30,18 @@ pipe end. Where several ends could meet, the move that lines up the most wins.
 This applies to every blueprint, Regionator's or not, and not while the hologram is snapped to
 another blueprint.
 
+## Splitters and mergers snapped on with SnapOn
+
+The SnapOn mod joins a splitter or merger to a machine through a short invisible belt, which
+does not survive being placed from a blueprint. So Move, Copy and Save Blueprint record the
+splitter or merger as joined straight to the machine, and SnapOn adds its invisible belt again
+the moment the copy is built: items flow as they did in the original.
+
+Blueprints saved with an earlier version of Regionator still carry the old invisible belts and
+can come out with splitters or mergers that do not feed their machines; save them again. The
+game's own Blueprint Designer still saves them the old way, and SnapOn itself does not support
+blueprints.
+
 ## Large blueprints
 
 Blueprints of 100 or more buildings are placed without the game's build effect to speed up placement.

@@ -13,6 +13,14 @@ hologram vanish for good (a division by the roof's zero height). Regionator fixe
 blueprint while the mod is loaded. If the fix ever misbehaves after a game update, it can be
 switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
 
+## The game crashes when closing or loading a save, with SnapOn
+
+With SnapOn, a blueprint holding snapped-on splitters or mergers could crash the game when you
+quit or loaded a save after holding it. Regionator now prevents that crash for every blueprint,
+Regionator's or the game's own; lines starting `Mod compat: not dismantling` in the log at that
+moment are expected. Old blueprints are still worth saving again so their splitters and mergers
+connect; see [Blueprints and Cost](Blueprints-And-Cost).
+
 ## Common questions
 
 - **The HUD is gone**: check **Mods > Regionator > HUD > Show the panel**, and its position; a
