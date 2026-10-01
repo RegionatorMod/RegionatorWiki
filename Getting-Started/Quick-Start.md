@@ -11,8 +11,8 @@ Regionator is free and unlocked from the start.
 4. Move: the box previews to the cursor and everything inside is outlined. Click to set the
    second corner.
 5. The region locks so you can nudge, rotate or step it into shape. Click once more to confirm.
-6. The selection is handed to the game's own dismantle tool. Fire to dismantle, secondary fire
-   to cancel.
+6. The selection is handed to the game's own dismantle tool. Fire to dismantle; until you fire,
+   secondary fire cancels.
 
 > [demo placeholder, about 15 seconds: steps 2 to 6 over a factory row]
 

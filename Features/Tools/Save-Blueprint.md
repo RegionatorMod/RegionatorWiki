@@ -24,7 +24,8 @@ and the region can be any size.
   [HUD](Regionator-HUD) counts "Preparing" and "Finishing" before the blueprint is filed.
 - The game hides the blueprint menu until the blueprint milestone. While Save Blueprint is
   enabled (Mods menu) the menu is unlocked; switching the mode off before reaching the milestone
-  hides it again.
+  hides it again. In [multiplayer](Multiplayer) it stays unlocked while any player present has
+  the mode enabled; a player who joins counts from the first time they equip the tool.
 
 > Removing the mod from a save that has not reached the blueprint milestone: untick
 > **Enable Save Blueprint** first, then load and save once, so the unlock stored in the save is

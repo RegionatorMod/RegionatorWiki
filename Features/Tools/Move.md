@@ -50,7 +50,9 @@ thousands of pieces the game pauses briefly while it builds the hologram.
 
 A Move never removes what it cannot prove it copied: an original whose copy cannot be found stays
 standing, with everything it holds. The originals are removed without a refund, because the free
-copy is the refund.
+copy is the refund. Only that one placement is free: a Move kept under **Regionator > Move
+History** (**Save each Move as a blueprint**, Mods menu) is charged its normal cost when built from
+the blueprint menu.
 
 ## Buildings that can only be built once
 

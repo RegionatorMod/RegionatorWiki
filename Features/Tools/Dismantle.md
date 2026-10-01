@@ -7,7 +7,8 @@ Hands the whole selection to the game's own dismantle tool, pre-selected.
 1. Pick **Dismantle** with the build-mode key, draw a [region](Regions), confirm.
 2. The game's dismantle tool comes up holding the selection, and the [HUD](Regionator-HUD) shows the
    refund and where it will go.
-3. Fire once to dismantle. Secondary fire cancels and returns the selection untouched.
+3. Fire once to dismantle. Until you fire, secondary fire cancels and returns the selection
+   untouched.
 
 > [demo placeholder, about 10 seconds: confirm a region, read the HUD, fire]
 

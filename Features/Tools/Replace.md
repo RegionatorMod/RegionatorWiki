@@ -50,3 +50,8 @@ crate. Under No Build Cost the replacements are free and what they replace is re
 
 A power pole a player's hover pack is drawing from, and anything whose removal would take down
 something Replace cannot put back. The HUD lists the reasons when the job ends.
+
+A building that is gone before its turn comes (for example, another player dismantled it while
+the job ran) is listed as no longer there. If its refund was helping to pay for the rest, the
+difference is taken from the same places as the cost; if some of it cannot be found, the HUD adds
+"Not enough materials." at the end.

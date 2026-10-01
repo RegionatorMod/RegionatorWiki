@@ -22,6 +22,9 @@ nudges move it a known distance from where it stands.
 - A Copy stays locked after each placement, so nudge and place again makes evenly spaced copies.
   At the originals a Copy is red until nudged off them; a Move may be placed anywhere, including
   over its own originals.
+- With Auto-Connect on, a locked hologram is never pulled toward a nearby open end, so each
+  nudge moves it exactly one step. Unlocked, it snaps to open ends as usual (see
+  [Blueprints and Cost](Blueprints-And-Cost)).
 - The game limits how far a hologram can be nudged from where it was locked; Infinite Nudge
   lifts that limit.
 - It does nothing for a blueprint from the menu (there is no origin to snap to), with the region

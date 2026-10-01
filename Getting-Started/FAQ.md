@@ -2,7 +2,8 @@
 
 **Is this a cheat mod?**
 No. Dismantles refund what the game refunds, a Copy costs the full build cost, a Move is free
-because the originals are taken in exchange, and Clear deletes fluid rather than refunding it.
+because the originals are taken in exchange (a blueprint kept from it costs its normal cost
+when placed from the menu), and Clear deletes fluid rather than refunding it.
 The one convenience is that Save Blueprint does not need the blueprint designer.
 
 **Can I remove the mod safely?**
@@ -48,6 +49,12 @@ All 26 of the game's languages, including live language switching.
 **Where do refunds go?**
 Targeted containers first, then your inventory, then a dismantle crate at your feet. See
 [Container Targeting](Container-Targeting).
+
+**Can I save while a job is still running?**
+Yes. Items a running Clear, Move or Replace is still carrying go into the save as a crate where
+they would have been handed back, usually at your feet, and a large dismantle hands over its
+refunds before saving. The game you are playing is not affected: no crate appears and the job
+finishes as usual. Fluid on its way into a pipe is not saved.
 
 **How big can a selection be?**
 Up to the **Selection limit** in the Mods menu, 35000 buildings and foundation-type pieces

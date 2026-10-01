@@ -15,7 +15,8 @@
   until the selection is made smaller.
 - The game's dismantle tool holds at most the **Dismantle limit**, 100000 buildings by default;
   see [Dismantle](Dismantle).
-- In [multiplayer](Multiplayer) the host's limits apply to every player.
+- In [multiplayer](Multiplayer) the host's limits apply to every player, and a guest can have at
+  most three jobs running on the host at once.
 - At most 64 [targeted containers](Container-Targeting).
 - The [Dismantle](Dismantle) refund estimate is skipped above 3000 buildings; the dismantle
   itself is unaffected.
@@ -33,6 +34,10 @@
   received yet can be missed, and the [Clear Items](Clear-Items) estimate counts only what you
   can see. A dismantle crate's contents in particular may not have reached your game until you
   open it, so the estimate can undercount a crate; the clear itself takes everything.
+- Saving while a [Clear Items](Clear-Items), [Move](Move) or [Replace](Replace) is still running
+  keeps the items it is carrying: they go into the save as a crate by the player who started
+  it, and the game you are playing carries on unchanged. A large [Dismantle](Dismantle) hands
+  over the refunds it still owes just before the save. Pipe fluid still on its way is not saved.
 - Fluid carried by [Replace](Replace) or [Move](Move) only goes where the pipe network carries
   the same fluid (or none yet) and has room; the rest is lost, as when the game dismantles a
   pipe.

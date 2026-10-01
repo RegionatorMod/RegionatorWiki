@@ -5,16 +5,17 @@ inventory.
 
 ## How to use it
 
-1. Aim at a storage container or crate.
+1. Aim at a storage container or a dismantle crate.
 2. Press **Regionator: target hovered container** (default `Left Alt`, a quick tap) to toggle it as a target.
    A target is outlined and boxed so it stands out from a distance.
 
 > [screenshot placeholder: two targeted containers with their outline and box]
 
-Up to 64 containers can be targeted. A Dimensional Depot cannot be. The key works at every step
-of the tool in every mode that moves items or pays for buildings (Save Blueprint does neither, so
-the key is not offered there), and also while the build gun holds any blueprint hologram, one
-from the blueprint menu as much as a Move or a Copy.
+Up to 64 containers can be targeted. A Dimensional Depot cannot be, nor a death crate: the mod
+never puts items into a death crate or takes any out. The key works at every step of the tool in
+every mode that moves items or pays for buildings (Save Blueprint does neither, so the key is not
+offered there), and also while the build gun holds any blueprint hologram, one from the blueprint
+menu as much as a Move or a Copy.
 
 ## What flows through the targets
 
@@ -38,4 +39,5 @@ never added to the dismantle selection. Putting the dismantle tool away drops it
 
 A container inside the region cannot be targeted, and one the region is later moved over is
 dropped from the targets instead, so a target is never dismantled or moved. Targets last until
-the tool is put away, or until a confirmed operation that uses them is over.
+the tool is put away, or until a confirmed operation that uses them is over. For a dismantle of
+fewer than 100 buildings that is about a second after you fire.

@@ -25,4 +25,5 @@ including from the pause menu.
   [multiplayer](Multiplayer) the host's limits apply to every player; your own values are
   ignored while you are connected.
 - Disabling **Enable Save Blueprint** before the blueprint milestone hides the blueprint menu
-  again; see the note on [Save Blueprint](Save-Blueprint) about removing the mod.
+  again (in [multiplayer](Multiplayer), once no player present has it enabled); see the note on
+  [Save Blueprint](Save-Blueprint) about removing the mod.

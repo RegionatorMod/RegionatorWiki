@@ -8,6 +8,8 @@ then a crate at your feet; fluid is deleted.
 
 1. Pick **Clear items**, draw a [region](Regions), confirm.
 2. The HUD estimates what comes out and where it will go; large clears run in the background.
+   If the game saves while one runs, the items it has taken out so far are put in that save as a
+   crate at your feet; the clear itself carries on as normal.
 
 > [demo placeholder, about 8 seconds: clear a belt bus, items landing in a targeted container]
 
