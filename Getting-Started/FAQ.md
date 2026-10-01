@@ -31,6 +31,11 @@ Yes. Nudge and rotation mods shape regions and placements like any hologram, and
 cap is raised to the same value Infinite Dismantle uses, so they coexist
 (see [Dismantle](Dismantle)).
 
+**Does it work with SnapOn?**
+Yes. Splitters and mergers snapped onto machines stay connected through a Move, a Copy and a
+saved blueprint; blueprints saved with an earlier version need saving again. See
+[Blueprints and Cost](Blueprints-And-Cost).
+
 **Does it work in multiplayer?**
 It is designed for it but not yet play tested; see [Multiplayer](Multiplayer).
 
