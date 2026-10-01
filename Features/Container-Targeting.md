@@ -6,7 +6,7 @@ inventory.
 ## How to use it
 
 1. Aim at a storage container or crate.
-2. Press **Regionator: target hovered container** (default `Left Ctrl`) to toggle it as a target.
+2. Press **Regionator: target hovered container** (default `Left Alt`, a quick tap) to toggle it as a target.
    A target is outlined and boxed so it stands out from a distance.
 
 > [screenshot placeholder: two targeted containers with their outline and box]

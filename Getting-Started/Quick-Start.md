@@ -26,7 +26,7 @@ Right-click (secondary fire) steps back one stage at any point before the confir
   [sphere](Regions).
 - `Ctrl + N` freezes the current region and starts [another one](Regions).
 - `U` opens the [type filter](Type-Filtering).
-- `Left Ctrl` on a hovered storage container [targets it](Container-Targeting) so refunds and
+- A tap of `Left Alt` on a hovered storage container [targets it](Container-Targeting) so refunds and
   costs go through it.
 
 All keys can be rebound; see [Controls](Controls). On a controller the same commands are chords
