@@ -11,7 +11,9 @@ to raise the detail, and the diagnostic switches, are on [Console Commands](Cons
 The vanilla game has a bug where aiming a blueprint hologram at the side of a Flat Roof makes the
 hologram vanish for good (a division by the roof's zero height). Regionator fixes it for every
 blueprint while the mod is loaded. If the fix ever misbehaves after a game update, it can be
-switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
+switched off by adding `-dpcvars=Regionator.FixFlatRoofSnap=0` to the game's launch options (in
+Steam, **Properties > Launch Options**) and restarting the game. It cannot be switched from the
+console once the game is running.
 
 ## Smoke stays where a machine stood
 
@@ -21,8 +23,10 @@ the save is loaded again. A Packager does it whenever it has power, even when id
 many machines at once makes it easy to notice, but the game's own build gun does the same.
 Regionator removes the leftover effect for every dismantle, Move and Replace while the mod is
 loaded. Smoke left from before the mod was installed goes away when the save is loaded again. If
-the fix ever misbehaves after a game update, it can be switched off with
-`-dpcvars=Regionator.FixLeftoverMachineEffects=0`.
+the fix ever misbehaves after a game update, it can be switched off by adding
+`-dpcvars=Regionator.FixLeftoverMachineEffects=0` to the game's launch options (in Steam,
+**Properties > Launch Options**) and restarting the game. It cannot be switched from the console
+once the game is running.
 
 ## The game crashes when closing or loading a save, with SnapOn
 
