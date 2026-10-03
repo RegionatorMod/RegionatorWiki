@@ -4,7 +4,7 @@ Everything the mod accepts from the game's console, all of it for diagnosing or 
 of these are needed for normal play. Open the console with the `` ` `` key (press it twice for
 the full window), type the line and press Enter.
 
-Two of the switches are read once, when the game starts, so they have to be set on the launch
+Three of the switches are read once, when the game starts, so they have to be set on the launch
 command line rather than typed in afterwards. In Steam that is **Properties > Launch Options**:
 
 ```text
@@ -18,6 +18,7 @@ Several can be joined with commas: `-dpcvars=Regionator.TraceDismantle=1,Regiona
 | Switch | Default | When it is read | What it does |
 |---|---|---|---|
 | `Regionator.FixFlatRoofSnap` | 1 (on) | At game start | Keeps the fix for the vanilla bug where a blueprint hologram vanishes for good when aimed at the side of a Flat Roof. Set it to 0 on the launch line if the fix ever misbehaves after a game update; see [Troubleshooting](Troubleshooting). |
+| `Regionator.FixLeftoverMachineEffects` | 1 (on) | At game start | Keeps the fix for the vanilla bug where a running Fuel Generator, Foundry, Particle Accelerator or Packager leaves its smoke behind when it is dismantled. Set it to 0 on the launch line if the fix ever misbehaves after a game update; see [Troubleshooting](Troubleshooting). |
 | `Regionator.TraceDismantle` | 0 (off) | At game start | Writes a timeline of every dismantle the host runs to the log, step by step with the time each one took. For finding out where a slow dismantle spends its time. |
 | `Regionator.TracePadDialog` | 0 (off) | Immediately | Logs every controller button that reaches one of the mod's popups (the type filter, Replace and Save Blueprint) and which field has the focus at the time. For reporting a popup that a pad cannot drive; see [Controller and Steam Deck](Controller). |
 | `Regionator.TracePerf` | 0 (off) | Immediately | Every 5 seconds, logs how much time the mod spent in each of its measured tasks (calls, average and longest time). For reporting a stutter while drawing a region, placing a large Move or Copy, or handing a big selection to the dismantle tool. |

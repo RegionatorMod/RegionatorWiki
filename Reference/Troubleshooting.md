@@ -13,6 +13,17 @@ hologram vanish for good (a division by the roof's zero height). Regionator fixe
 blueprint while the mod is loaded. If the fix ever misbehaves after a game update, it can be
 switched off with `-dpcvars=Regionator.FixFlatRoofSnap=0`.
 
+## Smoke stays where a machine stood
+
+The vanilla game has a bug where a Fuel Generator, Foundry, Particle Accelerator or Packager that
+is running near you when it is dismantled leaves its smoke (or glow) behind, and it stays until
+the save is loaded again. A Packager does it whenever it has power, even when idle. Dismantling
+many machines at once makes it easy to notice, but the game's own build gun does the same.
+Regionator removes the leftover effect for every dismantle, Move and Replace while the mod is
+loaded. Smoke left from before the mod was installed goes away when the save is loaded again. If
+the fix ever misbehaves after a game update, it can be switched off with
+`-dpcvars=Regionator.FixLeftoverMachineEffects=0`.
+
 ## The game crashes when closing or loading a save, with SnapOn
 
 With SnapOn, a blueprint holding snapped-on splitters or mergers could crash the game when you
