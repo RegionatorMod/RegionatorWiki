@@ -15,7 +15,11 @@ Leave building types out of the selection, in every mode.
 
 ## Notes
 
+- Type in the search box above a list to narrow it down. The letters only need to appear in
+  order, so `aspfnd` finds Asphalt Foundation. While a search is active, **All** and **None**
+  change only the types it shows, and the ones it hides keep their ticks. `Escape` clears the
+  search first, then cancels the popup.
 - The filter lasts until you change it, across regions and equips.
 - In [Fill Inputs](Fill-Inputs) the popup also lists the **items to fill**, and in
   [Clear Items](Clear-Items) the **items to clear**, each with its own checkboxes. The two item
-  lists are remembered separately.
+  lists are remembered separately. Each list has its own search box.
