@@ -27,15 +27,21 @@ leave them out. A Move still moves them; see [Blueprints and Cost](Blueprints-An
 **Can every Move or Copy start on its originals?**
 Yes: **Start at origin**, per mode in the Mods menu; see [Snap to Origin](Snap-To-Origin).
 
-**Does it work with Infinite Nudge / Infinite Dismantle?**
-Yes. Nudge and rotation mods shape regions and placements like any hologram, and the dismantle
-cap is raised to the same value Infinite Dismantle uses, so they coexist
-(see [Dismantle](Dismantle)).
+**Which mods does it work with?**
+These mods are tested with Regionator and kept working on purpose:
 
-**Does it work with SnapOn?**
-Yes. Splitters and mergers snapped onto machines stay connected through a Move, a Copy and a
-saved blueprint; blueprints saved with an earlier version need saving again. See
-[Blueprints and Cost](Blueprints-And-Cost).
+- **SnapOn**: splitters and mergers snapped onto machines stay connected through a Move, a Copy
+  and a saved blueprint; blueprints saved with an earlier version need saving again. See
+  [Blueprints and Cost](Blueprints-And-Cost).
+- **Infinite Nudge**: regions and placements nudge and rotate as far as the mod allows, like any
+  hologram.
+- **Infinite Dismantle**: the dismantle cap is raised to the same value it uses, so the two
+  coexist (see [Dismantle](Dismantle)).
+- **Lights +**: its light beams, even the thinnest, are selected only where a region actually
+  touches them.
+
+A mod missing from the list has simply not been checked, which does not mean it fails. If
+something goes wrong with one, see [Troubleshooting](Troubleshooting).
 
 **Does it work in multiplayer?**
 It is designed for it but not yet play tested; see [Multiplayer](Multiplayer).
