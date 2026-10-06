@@ -2,17 +2,19 @@
 
 Everything the build gun does on a pad works on the tool: place and confirm with primary fire,
 step back with secondary fire, lock, nudge and rotate with the game's buttons, and switch the
-tool mode or nudge target with the build-mode button. Equip the tool from the hotbar radial, the
+tool mode with the build-mode button. Equip the tool from the hotbar radial, the
 build menu or quick switch.
 
 ## Modes, nudging and nudge targets
 
 The build-mode button switches the tool mode, as on the keyboard. Once both anchors are down the
 region is locked and the game's own nudge controls move it: the D-pad nudges, and the game's
-vertical-nudge toggle switches up and down between forward and back and up and down.
+vertical-nudge toggle makes the D-pad's up and down move the region up and down instead of
+forward and back.
 
 While locked, the D-pad is a nudge, so the nudge target (Move Region, Move Anchor 1, Move
-Anchor 2) is picked with `L3 + B`, which does what a tap of the build-mode key does; the
+Anchor 2) is picked with `L3 + B`, which does what a tap of the build-mode key does (the
+controller page lists it under the game's name, **Switch Build Mode**); the
 [HUD](Regionator-HUD) names it in that step. Unlocking releases the second anchor to the cursor
 again, as on the keyboard.
 

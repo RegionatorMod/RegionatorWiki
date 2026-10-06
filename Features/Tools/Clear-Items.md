@@ -8,10 +8,15 @@ then a crate at your feet; fluid is deleted.
 
 1. Pick **Clear items**, draw a [region](Regions), confirm.
 2. The HUD estimates what comes out and where it will go; large clears run in the background.
+   If the game saves while one runs, the items it has taken out so far are put in that save as a
+   crate at your feet; the clear itself carries on as normal.
 
 > [demo placeholder, about 8 seconds: clear a belt bus, items landing in a targeted container]
 
 ## What is emptied
+
+Only buildings and things that hold items are selected: machines, belts, pipes, items on the
+ground and dismantle crates.
 
 - Machine inventories: inputs, outputs, buffers and fuel. Power shards and storage containers
   are left alone.
@@ -34,5 +39,5 @@ ground, and a crate holding one keeps that stack and stays standing.
 ## Pipes
 
 A pipe network that is inside the selection as a whole is flushed the way the game flushes one,
-so it can carry a different fluid afterwards. Pipe that runs on outside the selection refills
+so it can carry a different fluid afterward. Pipe that runs on outside the selection refills
 what was cleared once the fluid flows again.

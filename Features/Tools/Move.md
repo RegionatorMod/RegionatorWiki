@@ -1,7 +1,8 @@
 # Move
 
-Picks the selection up as a free hologram and places it somewhere else, contents and all. The
-originals are removed once the copy stands.
+A hologram of your selection appears, free, to be moved to a new location. Machine contents,
+belt items and pipe fluid are included in the move, and the originals are removed once the copy
+stands.
 
 ## How to use it
 
@@ -30,6 +31,8 @@ and pipe ends to what the originals were connected to outside, once the original
 segment can be moved and put back into the gap it came from (see
 [Blueprints and Cost](Blueprints-And-Cost) for Auto-Connect).
 
+Vehicles are never part of a Move; only [Dismantle](Dismantle) selects them.
+
 ## Placement
 
 - The copy may be placed over its own originals; they are removed once it stands. That lets a
@@ -50,7 +53,9 @@ thousands of pieces the game pauses briefly while it builds the hologram.
 
 A Move never removes what it cannot prove it copied: an original whose copy cannot be found stays
 standing, with everything it holds. The originals are removed without a refund, because the free
-copy is the refund.
+copy is the refund. Only that one placement is free: a Move kept under **Regionator > Move
+History** (**Save each Move as a blueprint**, Mods menu) is charged its normal cost when built from
+the blueprint menu.
 
 ## Buildings that can only be built once
 

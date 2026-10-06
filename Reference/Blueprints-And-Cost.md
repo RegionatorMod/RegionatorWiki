@@ -7,7 +7,8 @@ host; this page is what that blueprint carries and costs.
 
 A blueprint's cost is the buildings' build cost plus the machines' power shards and Somersloops,
 which every blueprint carries so that a copy keeps its overclock. Items on belts are never part
-of a blueprint. A Move is free; a Copy and a menu placement pay that cost per placement.
+of a blueprint. A Move is free; a Copy and a menu placement pay that cost per placement. A Move
+kept as a blueprint is free only as that Move: placed from the menu, it costs its normal cost.
 
 ## Include items in Blueprint
 
@@ -28,7 +29,20 @@ host also links a machine, container, splitter or lift port that lands exactly o
 pipe end. Where several ends could meet, the move that lines up the most wins.
 
 This applies to every blueprint, Regionator's or not, and not while the hologram is snapped to
-another blueprint.
+another blueprint or locked in place (the game's lock, or [Snap to Origin](Snap-To-Origin)), so
+a locked hologram stays exactly where the lock and your nudges put it.
+
+## Splitters and mergers snapped on with SnapOn
+
+The SnapOn mod joins a splitter or merger to a machine through a short invisible belt, which
+does not survive being placed from a blueprint. So Move, Copy and Save Blueprint record the
+splitter or merger as joined straight to the machine, and SnapOn adds its invisible belt again
+the moment the copy is built: items flow as they did in the original.
+
+Blueprints saved with an earlier version of Regionator still carry the old invisible belts and
+can come out with splitters or mergers that do not feed their machines; save them again. The
+game's own Blueprint Designer still saves them the old way, and SnapOn itself does not support
+blueprints.
 
 ## Large blueprints
 

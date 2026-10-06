@@ -1,13 +1,14 @@
 # Replace
 
-Swaps buildings for another type, material or colour, in place. Connections, contents and
-positions survive; nothing is dismantled and rebuilt where a restyle will do.
+Swaps foundations, walls, belts, pipes and more for another type, material or color, in place,
+and can also set machine recipes. Connections, contents and positions survive; nothing is
+dismantled and rebuilt where a restyle will do.
 
 ## How to use it
 
 1. Pick **Replace**, draw a [region](Regions), confirm.
 2. A popup lists every building type in the selection. For each row, choose what it becomes
-   and/or a material and colour. The net cost and refund update as you pick, and Replace greys
+   and/or a material and color. The net cost and refund update as you pick, and Replace grays
    out when you cannot afford it.
 3. Confirm the popup. The host re-checks the whole mapping and refuses it if it can no longer be
    paid for.
@@ -24,7 +25,7 @@ are offered.
 ## Restyle only
 
 Machines, splitters and mergers, pipe junctions and pumps, power poles and lights keep their
-type; the material and colour are written onto them where they stand, so their connections, items
+type; the material and color are written onto them where they stand, so their connections, items
 and fluid are untouched. A manufacturer row can also set a **production recipe**: the machine is
 emptied, the recipe set, and items the new recipe cannot use are handed back. Recipe changes are
 free.
@@ -50,3 +51,8 @@ crate. Under No Build Cost the replacements are free and what they replace is re
 
 A power pole a player's hover pack is drawing from, and anything whose removal would take down
 something Replace cannot put back. The HUD lists the reasons when the job ends.
+
+A building that is gone before its turn comes (for example, another player dismantled it while
+the job ran) is listed as no longer there. If its refund was helping to pay for the rest, the
+difference is taken from the same places as the cost; if some of it cannot be found, the HUD adds
+"Not enough materials." at the end.

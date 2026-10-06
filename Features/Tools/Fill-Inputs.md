@@ -1,6 +1,6 @@
 # Fill Inputs
 
-Feeds every manufacturer input and fuel generator in the region from
+Puts machine input items into every manufacturer and fuel generator in the region, from
 [targeted containers](Container-Targeting) and your inventory.
 
 ## How to use it

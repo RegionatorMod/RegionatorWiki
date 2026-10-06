@@ -1,6 +1,6 @@
 # Multiplayer
 
-Designed for it, not yet play tested. Reports from multiplayer sessions are welcome.
+Multiplayer is not tested yet. Reports from multiplayer sessions are welcome.
 
 ## How it is built
 
@@ -17,8 +17,16 @@ who asked for it.
   [targeted containers](Container-Targeting) and inventory.
 - The Selection, Dismantle and volume limits in force are the host's; your own settings are
   ignored while you are connected. See [Limits and Known Issues](Limits-And-Known-Issues).
-- A large selection is sent to the host in pieces. If the host stops answering for 30 seconds
-  the HUD says "The selection did not reach the host. Try again."
+- Your requests reach the host in the order you made them. A large selection is sent in pieces;
+  if the host stops answering for 30 seconds the HUD says "The selection did not reach the host.
+  Try again."
+- While a guest has three jobs still running on the host, or when a new request would take what
+  they have running past the host's Selection limit, that request is refused with "The host is
+  still working on your earlier jobs. Wait for one to finish, then try again." The host's own
+  jobs are not limited this way.
+- Before the blueprint milestone, the blueprint menu stays unlocked for everyone while any
+  player present has [Save Blueprint](Save-Blueprint) enabled (a guest counts from the first
+  time they equip the tool), and is hidden again once nobody present does.
 
 ## Known soft spots
 
