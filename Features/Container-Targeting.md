@@ -3,6 +3,11 @@
 Route refunds, removed items and building costs through storage containers instead of your
 inventory.
 
+Building a large blueprint, even when you cannot hold all the required items in your inventory?
+Load the items into a container, then target the container while the blueprint hologram is in
+hand. This works for any mode that costs resources (Copy, Replace), and in Dismantle the refunds
+go to the container, then your inventory, then a dismantle crate.
+
 ## How to use it
 
 1. Aim at a storage container or a dismantle crate.

@@ -4,7 +4,7 @@
 No. Dismantles refund what the game refunds, a Copy costs the full build cost, a Move is free
 because the originals are taken in exchange (a blueprint kept from it costs its normal cost
 when placed from the menu), and Clear deletes fluid rather than refunding it.
-The one convenience is that Save Blueprint does not need the blueprint designer.
+The one convenience is that Save Blueprint does not need the Blueprint Designer.
 
 **Can I remove the mod safely?**
 Yes. Everything it builds is a normal building, and its blueprints are normal blueprint files.
@@ -28,23 +28,21 @@ leave them out. A Move still moves them; see [Blueprints and Cost](Blueprints-An
 Yes: **Start at origin**, per mode in the Mods menu; see [Snap to Origin](Snap-To-Origin).
 
 **Which mods does it work with?**
-These mods are tested with Regionator and kept working on purpose:
+Regionator has direct support for several mods, many of which we recommend you also play with to enhance your experience.
 
-- **SnapOn**: splitters and mergers snapped onto machines stay connected through a Move, a Copy
-  and a saved blueprint; blueprints saved with an earlier version need saving again. See
-  [Blueprints and Cost](Blueprints-And-Cost).
-- **Infinite Nudge**: regions and placements nudge and rotate as far as the mod allows, like any
-  hologram.
-- **Infinite Dismantle**: not needed, since Regionator has its own **Dismantle limit**. With
-  both installed, Regionator's limit is the one used (see [Dismantle](Dismantle)).
-- **Lights +**: its light beams, even the thinnest, are selected only where a region actually
-  touches them.
+| Mod | Supported | Recommended | Notes |
+| :-- | :-------: | :---------- | :---- |
+| [Smart!](https://ficsit.app/mod/SmartFoundations) | ✅ Yes | ✅ Yes | Helps with visualizing Regionator selection and current rotation mode. |
+| [Infinite Nudge](https://ficsit.app/mod/InfiniteNudge) | ✅ Yes | ✅ Yes | Helps with fine adjustments to Regionator selection,<br>and nudging holograms to precise locations. |
+| [Lights +](https://ficsit.app/mod/LightsPlus) | ✅ Yes | Optional | |
+| [SnapOn](https://ficsit.app/mod/DirectToSplitter) | ✅ Yes | Optional | |
+| [Infinite Dismantle](https://ficsit.app/mod/InfiniteDismantle) | ✅ Yes | ❌ No | Regionator provides a dismantle limit option in the Mod menu,<br>if Infinite Dismantle is installed, the value set by Regionator is preferred. |
 
-A mod missing from the list has simply not been checked, which does not mean it fails. If
-something goes wrong with one, see [Troubleshooting](Troubleshooting).
+A mod not listed has not been checked yet. If something goes wrong with one, see
+[Troubleshooting](Troubleshooting).
 
 **Does it work in multiplayer?**
-It is designed for it but not yet play tested; see [Multiplayer](Multiplayer).
+Multiplayer is not tested yet. Reports are welcome; see [Multiplayer](Multiplayer).
 
 **Does it work on a controller?**
 Yes, fully; see [Controller and Steam Deck](Controller).

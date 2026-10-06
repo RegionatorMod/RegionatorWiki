@@ -39,5 +39,5 @@ ground, and a crate holding one keeps that stack and stays standing.
 ## Pipes
 
 A pipe network that is inside the selection as a whole is flushed the way the game flushes one,
-so it can carry a different fluid afterwards. Pipe that runs on outside the selection refills
+so it can carry a different fluid afterward. Pipe that runs on outside the selection refills
 what was cleared once the fluid flows again.

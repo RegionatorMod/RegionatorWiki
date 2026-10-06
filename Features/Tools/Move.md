@@ -1,7 +1,8 @@
 # Move
 
-Picks the selection up as a free hologram and places it somewhere else, contents and all. The
-originals are removed once the copy stands.
+A hologram of your selection appears, free, to be moved to a new location. Machine contents,
+belt items and pipe fluid are included in the move, and the originals are removed once the copy
+stands.
 
 ## How to use it
 

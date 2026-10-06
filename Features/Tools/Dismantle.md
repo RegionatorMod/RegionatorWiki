@@ -1,6 +1,7 @@
 # Dismantle
 
-Hands the whole selection to the game's own dismantle tool, pre-selected.
+The selection is highlighted in the game's own dismantle tool, already selected, with the refund
+shown before you dismantle.
 
 ## How to use it
 

@@ -1,7 +1,7 @@
 # Copy
 
-Writes the selection as a temporary blueprint and hands you its hologram at the normal build
-cost. Place it as often as you like.
+A hologram of your selection appears, to be built again (pasted) as often as you like, at the
+normal build cost.
 
 ## How to use it
 

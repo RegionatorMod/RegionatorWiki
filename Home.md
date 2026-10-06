@@ -14,25 +14,31 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 - [Controls](Controls): every key, what it does, and how to rebind it.
 - [Controller and Steam Deck](Controller): the same tool on a gamepad.
 - [Regionator HUD](Regionator-HUD): reading the on-screen readout.
-- [FAQ](FAQ): common questions.
+- [FAQ](FAQ): common questions, and the mods Regionator supports.
 
 ## Features
 
 - [Regions](Regions): boxes and spheres, several per selection, shaped with the game's own controls.
-- [Container Targeting](Container-Targeting): route refunds and costs through storage containers.
+- [Container Targeting](Container-Targeting): pay for big builds from storage containers, and send
+  refunds to them.
 - [Type Filtering](Type-Filtering): leave building types out of the selection.
 - [Snap to Origin](Snap-To-Origin): place a Move or Copy a known distance from where it stands.
 
 ### Tools
 
-- [Dismantle](Dismantle): hand the whole selection to the game's dismantle tool, pre-selected.
-- [Replace](Replace): swap building types, materials, colours and recipes in place.
-- [Move](Move): pick a selection up and place it somewhere else, contents and all.
-- [Copy](Copy): stamp a selection as often as you like, at the normal cost.
-- [Save Blueprint](Save-Blueprint): file any region as a real blueprint, no designer needed.
-- [Fill Inputs](Fill-Inputs): feed every machine in the region from containers you pick.
-- [Clear Items](Clear-Items): empty machines, belts, pipes, items on the ground and dismantle
-  crates, with an item filter.
+- [Dismantle](Dismantle): the selection is highlighted in the game's dismantle tool, already
+  selected, with the refund shown before you dismantle.
+- [Replace](Replace): swap foundations, walls, belts, pipes and more for another type, material
+  or color, in place. It can also set machine recipes.
+- [Move](Move): a hologram of your selection that you move to a new location. Machine contents,
+  belt items and pipe fluid come along.
+- [Copy](Copy): a hologram of your selection that you can build again and again, at the normal
+  cost.
+- [Save Blueprint](Save-Blueprint): save any region as a normal blueprint, no Blueprint Designer
+  needed.
+- [Fill Inputs](Fill-Inputs): put machine input items in from your inventory or targeted
+  containers.
+- [Clear Items](Clear-Items): empty machines, belts, pipes, dropped items and dismantle crates.
 
 ## Reference
 

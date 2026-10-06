@@ -28,9 +28,9 @@ Nudge, pitch and roll modes) shape the region the same way.
 ## Spheres
 
 `Left Ctrl + B` (Regionator: toggle region shape; `L3 + Y` on a controller) switches between box and
-sphere; the shape sticks for later regions and the next equip. The first click sets the centre,
-the second the radius, which the HUD reads out in metres. In the adjust step the nudge targets
-are **Move Center** and **Adjust Radius**; a nudge along the line from the centre changes the
+sphere; the shape sticks for later regions and the next equip. The first click sets the center,
+the second the radius, which the HUD reads out in meters. In the adjust step the nudge targets
+are **Move Center** and **Adjust Radius**; a nudge along the line from the center changes the
 radius by exactly the nudge step. Scrolling leaves a sphere as it is.
 
 > [demo placeholder, about 8 seconds: toggle to sphere, grow it over a tank farm, adjust the radius]

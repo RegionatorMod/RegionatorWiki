@@ -1,6 +1,6 @@
 # Multiplayer
 
-Designed for it, not yet play tested. Reports from multiplayer sessions are welcome.
+Multiplayer is not tested yet. Reports from multiplayer sessions are welcome.
 
 ## How it is built
 

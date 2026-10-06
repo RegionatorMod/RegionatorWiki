@@ -1,13 +1,13 @@
 # Save Blueprint
 
-Files any region as a real blueprint in the game's blueprint menu. No blueprint designer needed,
-and the region can be any size up to the [volume limit](Limits-And-Known-Issues).
+Saves any region as a normal blueprint in the game's blueprint menu. No Blueprint Designer
+needed, and the region can be any size up to the [volume limit](Limits-And-Known-Issues).
 
 ## How to use it
 
 1. Pick **Save Blueprint**, draw a [region](Regions), confirm.
 2. A dialog asks for the name (up to 200 characters), a description (up to 2000 characters),
-   a background colour (the game's colour picker) and an icon, picked from the game's icon
+   a background color (the game's color picker) and an icon, picked from the game's icon
    database with a search box.
 3. Save. The blueprint is filed under **Regionator > Blueprints** in the blueprint menu, with a
    number added to the name if it was taken.

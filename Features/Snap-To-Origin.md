@@ -15,7 +15,7 @@ nudges move it a known distance from where it stands.
 > [demo placeholder, about 8 seconds: snap a Copy onto its originals, nudge 8 m, place, repeat,
 > giving evenly spaced rows]
 
-## Behaviour
+## Behavior
 
 - Pressing the key again returns to the originals, undoing the nudges, and stays locked. The
   game's lock key unlocks as usual.
