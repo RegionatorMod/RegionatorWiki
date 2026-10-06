@@ -1,11 +1,11 @@
-![Regionator](https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/wiki-updates/images/banner.png)
+![Regionator](https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/banner.png)
 
 <p align="center">
   <a href="https://ficsit.app/mod/Regionator"><img alt="Mod Page" height="28" src="https://img.shields.io/badge/ficsit.app-Mod%20Page-F28B28?style=for-the-badge"></a>
   &nbsp;
   <a href="https://github.com/RegionatorMod/RegionatorWiki/wiki"><img alt="Wiki" height="28" src="https://img.shields.io/badge/Wiki-Documentation-F28B28?style=for-the-badge&logo=github&logoColor=white"></a>
   &nbsp;
-  <a href="PAYPAL_DONATE_URL"><img alt="Donate with PayPal" height="28" src="https://img.shields.io/badge/PayPal-Donate-003087?style=for-the-badge&logo=paypal&logoColor=white"></a>
+  <a href="https://www.paypal.com/ncp/payment/786A5N7Q7THKL"><img alt="Donate with PayPal" height="28" src="https://img.shields.io/badge/PayPal-Donate-003087?style=for-the-badge&logo=paypal&logoColor=white"></a>
 </p>
 
 
@@ -27,7 +27,7 @@
 <details name="examples" open>
 <summary><h3 style="display:inline">Selecting an entire factory, dismantle, and refund to a targeted container.</h3></summary>
 
-<img alt="Drawing a box over a factory row and dismantling it all at once" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/wiki-updates/images/dismantle.webp" width="100%" loading="lazy">
+<img alt="Drawing a box over a factory row and dismantling it all at once" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/dismantle.webp" width="100%" loading="lazy">
 
 </details>
 
@@ -36,7 +36,7 @@
 <details name="examples">
 <summary><h3 style="display:inline">Selecting an entire factory to Save as Blueprint without a blueprint designer.</h3></summary>
 
-<img alt="Saving a whole factory as a blueprint without the Blueprint Designer" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/wiki-updates/images/blueprint.webp" width="100%" loading="lazy">
+<img alt="Saving a whole factory as a blueprint without the Blueprint Designer" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/blueprint.webp" width="100%" loading="lazy">
 
 </details>
 
@@ -45,7 +45,7 @@
 <details name="examples">
 <summary><h3 style="display:inline">Building a large blueprint using items from targeted containers.</h3></summary>
 
-<img alt="Building a large blueprint with items pulled from targeted containers" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/wiki-updates/images/rebuild_blueprint.webp" width="100%" loading="lazy">
+<img alt="Building a large blueprint with items pulled from targeted containers" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/rebuild_blueprint.webp" width="100%" loading="lazy">
 
 </details>
 
