@@ -38,6 +38,8 @@
   keeps the items it is carrying: they go into the save as a crate by the player who started
   it, and the game you are playing carries on unchanged. A large [Dismantle](Dismantle) hands
   over the refunds it still owes just before the save. Pipe fluid still on its way is not saved.
+  A save made while a [Move](Move) is still removing the originals waits until they are gone
+  (never more than a minute), so it never holds both the copy and the originals.
 - Fluid carried by [Replace](Replace) or [Move](Move) only goes where the pipe network carries
   the same fluid (or none yet) and has room; the rest is lost, as when the game dismantles a
   pipe.

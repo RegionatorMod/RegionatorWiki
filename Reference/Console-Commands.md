@@ -26,7 +26,7 @@ Several can be joined with commas: `-dpcvars=Regionator.TraceDismantle=1,Regiona
 | `Regionator.TracePerf` | 0 (off) | Immediately | Every 5 seconds, logs how much time the mod spent in each of its measured tasks (calls, average and longest time). For reporting a stutter while drawing a region, placing a large Move or Copy, or handing a big selection to the dismantle tool. |
 | `Regionator.TraceRemoteCalls` | 0 (off) | Immediately | Logs every request your game sends to the host as it is queued and sent. For [multiplayer](Multiplayer) reports. |
 | `Regionator.WorkChunkSize` | 0 | Immediately | Sends selections to the host in pieces of at most this many entries. 0 means the normal 4000; larger values count as 4000. For testing. |
-| `Regionator.HoldJobs` | 0 (off) | Immediately | Pauses the mod's running jobs (Replace, Move, Fill inputs, Clear items, auto pillars being built, and a large Copy, Save Blueprint or dismantle) after this many steps, until it is set back to 0. Set it on the host. For testing what happens to a job that is interrupted, by a save for example; leave it at 0 to play. |
+| `Regionator.HoldJobs` | 0 (off) | Immediately | Pauses the mod's running jobs (Replace, Move, Fill inputs, Clear items, auto pillars being built, and a large Copy, Save Blueprint or dismantle) after this many steps, until it is set back to 0. Set it on the host. For testing what happens to a job that is interrupted, by a save for example; a save made while a Move or an auto pillar build is held this way waits for it for up to a minute. Leave it at 0 to play. |
 
 Type a switch and its value in the console: `Regionator.TracePadDialog 1` switches it on, `0`
 switches it off, and `Regionator.HoldJobs 3` sets a number. This works for the switches read

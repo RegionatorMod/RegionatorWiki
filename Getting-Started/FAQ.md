@@ -60,6 +60,11 @@ they would have been handed back, usually at your feet, and a large dismantle ha
 refunds before saving. The game you are playing is not affected: no crate appears and the job
 finishes as usual. Fluid on its way into a pipe is not saved.
 
+A save made while a Move is still removing the originals waits until they are gone, usually a
+second or two and never more than a minute, so a save never holds both the copy and the
+originals. This includes the autosave and saving from the pause menu, where the Move finishes
+while the menu is open.
+
 **How big can a selection be?**
 Up to the **Selection limit** in the Mods menu, 35000 buildings and foundation-type pieces
 together by default, and no larger than the volume limit, a 500 x 500 x 500 m box or the same

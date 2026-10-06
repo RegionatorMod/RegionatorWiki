@@ -57,6 +57,12 @@ copy is the refund. Only that one placement is free: a Move kept under **Regiona
 History** (**Save each Move as a blueprint**, Mods menu) is charged its normal cost when built from
 the blueprint menu.
 
+Saving during a Move is safe. A save made while the originals are still being removed, by you,
+the autosave or the server, waits until they are gone, usually a second or two and never more
+than a minute, so a loaded save never has both the copy and the originals. From the pause menu
+the Move finishes while the menu is open, and the game reports the save a moment later than
+usual.
+
 ## Buildings that can only be built once
 
 The HUB and the Space Elevator move like anything else. A Move that includes one is never kept
