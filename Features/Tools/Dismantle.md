@@ -22,13 +22,21 @@ Hands the whole selection to the game's own dismantle tool, pre-selected.
   handed to the dismantle tool and will be left standing") and in the log, and the completion
   line repeats the count; nothing is silently skipped.
 
+## Vehicles
+
+Trucks, tractors, explorers, drones and trains inside the region are selected too: outlined,
+counted, and listed by name in the [type filter](Type-Filtering), so they can be left out. A
+vehicle driving through the region at the moment you confirm is taken as well. Only Dismantle
+selects vehicles; the other modes leave them alone.
+
 ## Large selections
 
 100 buildings or more are dismantled in the background: the build gun is put away and the HUD
 shows progress. To stop a running dismantle, equip the build gun and press secondary fire.
 
-The game caps how many buildings one dismantle can hold; the mod raises that cap to the
-**Dismantle limit** in the Mods menu, 100000 by default (the value Infinite Dismantle uses, so
-the two mods coexist) and up to 1000000. A Dismantle selection is also cut at that limit. In
+The game caps how many buildings one dismantle can hold; the mod sets that cap to the
+**Dismantle limit** in the Mods menu, from 100000 (the default) to 1000000. It applies to the
+game's own dismantle tool too, and with Infinite Dismantle installed Regionator's limit is the
+one used. A Dismantle selection is also cut at that limit. In
 [multiplayer](Multiplayer) the host's limit applies. Above 3000 buildings the refund estimate is
 skipped; the dismantle itself is unaffected.

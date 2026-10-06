@@ -44,8 +44,8 @@ connect; see [Blueprints and Cost](Blueprints-And-Cost).
   need the exact modifier (`Left Ctrl` by default). The container key (`Left Alt` by default)
   acts on a quick tap alone: `Alt` held long, or with a click, a scroll or another key, targets
   nothing. Check **Options > Keybindings > Regionator** for rebinds. On a controller every
-  command is a chord: hold `L3` first; apart from equip they only count while the tool is in
-  hand.
+  command is a chord: hold `L3` first; apart from equip they only count while the tool, a
+  blueprint hologram or the dismantle tool is in hand.
 - **The region is red and confirm does nothing**: the selection is over the volume limit.
   Shrink the region, remove one, or raise **Mods > Regionator > General > Selection volume
   limit factor**; see [Limits and Known Issues](Limits-And-Known-Issues).

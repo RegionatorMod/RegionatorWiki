@@ -5,7 +5,7 @@ nudges move it a known distance from where it stands.
 
 ## How to use it
 
-1. While a Move or Copy hologram is up, press **Regionator: snap to origin** (`Ctrl + H` on the
+1. While a Move or Copy hologram is up, press **Regionator: snap to origin** (`Left Ctrl + H` on the
    keyboard, `L3 + R3` on a controller; see [Controls](Controls)).
 2. The hologram sits exactly on the originals, at the angle they stand at, locked with the game's
    own hologram lock.

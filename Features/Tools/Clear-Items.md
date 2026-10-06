@@ -15,6 +15,9 @@ then a crate at your feet; fluid is deleted.
 
 ## What is emptied
 
+Only buildings and things that hold items are selected: machines, belts, pipes, items on the
+ground and dismantle crates.
+
 - Machine inventories: inputs, outputs, buffers and fuel. Power shards and storage containers
   are left alone.
 - Belts and conveyor lifts.

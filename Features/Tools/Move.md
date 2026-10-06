@@ -30,6 +30,8 @@ and pipe ends to what the originals were connected to outside, once the original
 segment can be moved and put back into the gap it came from (see
 [Blueprints and Cost](Blueprints-And-Cost) for Auto-Connect).
 
+Vehicles are never part of a Move; only [Dismantle](Dismantle) selects them.
+
 ## Placement
 
 - The copy may be placed over its own originals; they are removed once it stands. That lets a

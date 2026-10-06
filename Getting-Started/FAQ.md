@@ -35,8 +35,8 @@ These mods are tested with Regionator and kept working on purpose:
   [Blueprints and Cost](Blueprints-And-Cost).
 - **Infinite Nudge**: regions and placements nudge and rotate as far as the mod allows, like any
   hologram.
-- **Infinite Dismantle**: the dismantle cap is raised to the same value it uses, so the two
-  coexist (see [Dismantle](Dismantle)).
+- **Infinite Dismantle**: not needed, since Regionator has its own **Dismantle limit**. With
+  both installed, Regionator's limit is the one used (see [Dismantle](Dismantle)).
 - **Lights +**: its light beams, even the thinnest, are selected only where a region actually
   touches them.
 

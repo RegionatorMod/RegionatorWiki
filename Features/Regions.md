@@ -1,7 +1,8 @@
 # Regions
 
 A region says which buildings you mean. Machines, belts, pipes, foundations, walls, beams and
-modded buildings are all selectable; what happens to them is the [tool mode's](Home) job.
+modded buildings are all selectable, and in [Dismantle](Dismantle) vehicles too; what happens to
+them is the [tool mode's](Home) job.
 
 ## What counts as inside
 
@@ -26,7 +27,7 @@ Nudge, pitch and roll modes) shape the region the same way.
 
 ## Spheres
 
-`Ctrl + B` (Regionator: toggle region shape; `L3 + Y` on a controller) switches between box and
+`Left Ctrl + B` (Regionator: toggle region shape; `L3 + Y` on a controller) switches between box and
 sphere; the shape sticks for later regions and the next equip. The first click sets the centre,
 the second the radius, which the HUD reads out in metres. In the adjust step the nudge targets
 are **Move Center** and **Adjust Radius**; a nudge along the line from the centre changes the
@@ -36,7 +37,7 @@ radius by exactly the nudge step. Scrolling leaves a sphere as it is.
 
 ## Several regions
 
-With both anchors down, `Ctrl + N` (Regionator: add region) freezes the current region (drawn
+With both anchors down, `Left Ctrl + N` (Regionator: add region; `L3 + A` on a controller) freezes the current region (drawn
 fainter) and starts a new one on the cursor. There is no limit. The selection is the union of
 every region: a building in two of them counts once, boxes and spheres mix freely, and each keeps
 the angle it was drawn at. Nudging and rotating only move the region being shaped. Stepping back

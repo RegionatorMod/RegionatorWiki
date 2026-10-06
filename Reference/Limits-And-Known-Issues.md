@@ -13,8 +13,8 @@
   raised to 10000. While the regions enclose more than that, the region in hand turns red, the
   HUD says "Over the volume limit, shrink selection to confirm", and confirming does nothing
   until the selection is made smaller.
-- The game's dismantle tool holds at most the **Dismantle limit**, 100000 buildings by default;
-  see [Dismantle](Dismantle).
+- The game's dismantle tool holds at most the **Dismantle limit**, 100000 buildings by default
+  and up to 1000000; see [Dismantle](Dismantle).
 - In [multiplayer](Multiplayer) the host's limits apply to every player, and a guest can have at
   most three jobs running on the host at once.
 - At most 64 [targeted containers](Container-Targeting).

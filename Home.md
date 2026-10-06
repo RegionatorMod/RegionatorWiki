@@ -1,7 +1,7 @@
 # Regionator
 
-Stop dismantling one machine at a time. Draw a region, a box or a sphere, and dismantle, move,
-copy, blueprint, clear, fill or replace everything inside it, at once.
+Increase your efficiency with Regionator! Draw a box or sphere around any build to
+dismantle, move, copy, replace types, save a blueprint, clear items, or fill inputs, all at once.
 
 Regionator is a bulk-editing tool, not a creative mode. Costs are paid, refunds follow the game's
 own rules, and everything it builds is a normal building the vanilla game can load without the mod.

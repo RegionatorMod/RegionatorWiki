@@ -20,6 +20,8 @@ Leave building types out of the selection, in every mode.
   change only the types it shows, and the ones it hides keep their ticks. `Escape` clears the
   search first, then cancels the popup.
 - The filter lasts until you change it, across regions and equips.
+- In [Dismantle](Dismantle) the list also names the vehicles inside the region, such as Drone or
+  Truck. The other modes never select vehicles.
 - In [Fill Inputs](Fill-Inputs) the popup also lists the **items to fill**, and in
   [Clear Items](Clear-Items) the **items to clear**, each with its own checkboxes. The two item
   lists are remembered separately. Each list has its own search box.
