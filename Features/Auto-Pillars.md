@@ -4,7 +4,7 @@ Mark the pillars of a blueprint while you save or copy it. Each time the bluepri
 marked columns reach down to the ground, however high the blueprint stands. The extra pieces are
 added to the cost and built with the blueprint.
 
-Off by default: switch it on under **Mods > Regionator > Auto pillars > Enable auto pillars**. The
+Off by default: switch it on under **Mods > Regionator > General > Enable auto pillars**. The
 switch takes effect at once, with no restart.
 
 > [demo placeholder, about 10 seconds: mark the pillars of a platform, save it, place it on a
@@ -17,8 +17,8 @@ switch takes effect at once, with no restart.
 2. Press **Regionator: mark auto pillars** (`Left Ctrl + P` on the keyboard, `L3 + Menu` on a
    controller; see [Controls](Controls)). The region is frozen and a teal marking region starts.
 3. Draw the marking region around the pillars that should reach down. Buildings of the selection
-   inside it are outlined in their own color, and the [Regionator HUD](Regionator-HUD) counts
-   them under **Auto pillars**.
+   inside it are outlined in blue instead of the selection's red, and the
+   [Regionator HUD](Regionator-HUD) counts them under **Auto pillars**.
 4. Confirm as usual.
 
 A marking region adds nothing to the selection: it only marks what the selection already holds.
@@ -55,4 +55,5 @@ At most 64 repeats per column and 2000 extra pieces per placement.
   Mark it again with Save Blueprint to get them back.
 - Switching Auto pillars off removes the preview and the extra cost at once. The marks stay with
   their blueprints, ready for when you switch it back on.
-- In multiplayer, auto pillars extend for the host's own placements for now.
+- In multiplayer each player's own setting applies, host and guests alike: your marked blueprints
+  extend when you have Auto pillars on, whatever the other players have chosen.
