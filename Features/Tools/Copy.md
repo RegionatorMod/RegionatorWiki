@@ -22,6 +22,8 @@ normal build cost.
   **Start at origin** on (Mods menu, Copy section) every Copy begins that way without the key
   press.
 - The cost and what a blueprint carries are on [Blueprints and Cost](Blueprints-And-Cost).
+- With [Auto Pillars](Auto-Pillars) on, marked pillars reach down to the ground at every
+  placement, however high the copy stands.
 - **Save each Copy as a blueprint** (Mods menu) keeps one under **Regionator > Copy History** in
   the blueprint menu, named by the time it was made. Its machines are empty unless **Include
   items in Blueprint** is on.

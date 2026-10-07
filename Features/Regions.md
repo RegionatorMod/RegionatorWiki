@@ -43,6 +43,10 @@ every region: a building in two of them counts once, boxes and spheres mix freel
 the angle it was drawn at. Nudging and rotating only move the region being shaped. Stepping back
 before the new region's first anchor is down drops it and takes up the previous one again.
 
+In Save Blueprint and Copy, with [Auto Pillars](Auto-Pillars) on, `Left Ctrl + P` starts a teal
+marking region the same way. It adds nothing to the selection: it marks the buildings of the
+selection inside it as auto pillars.
+
 ## How much a selection may enclose
 
 All your regions together may enclose no more than the volume limit, a 500 x 500 x 500 m box or

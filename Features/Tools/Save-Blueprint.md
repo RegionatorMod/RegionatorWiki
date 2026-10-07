@@ -19,6 +19,8 @@ needed, and the region can be any size up to the [volume limit](Limits-And-Known
 - The blueprint is a native one: build it from the menu, dismantle it with blueprint dismantle,
   share the file like any other blueprint.
 - What it carries and costs is on [Blueprints and Cost](Blueprints-And-Cost).
+- With [Auto Pillars](Auto-Pillars) on, mark the pillars before you confirm: wherever the
+  blueprint is placed later, they reach down to the ground.
 - The HUB and the Space Elevator can only be built once, so they are left out of the selection.
 - Vehicles are never selected; only [Dismantle](Dismantle) takes them.
 - Saving a blueprint moves no items, so the target-container key is not offered in this mode.

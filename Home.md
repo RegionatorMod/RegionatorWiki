@@ -23,6 +23,8 @@ own rules, and everything it builds is a normal building the vanilla game can lo
   refunds to them.
 - [Type Filtering](Type-Filtering): leave building types out of the selection.
 - [Snap to Origin](Snap-To-Origin): place a Move or Copy a known distance from where it stands.
+- [Auto Pillars](Auto-Pillars): marked pillars of a blueprint reach down to the ground wherever
+  it is placed.
 
 ### Tools
 

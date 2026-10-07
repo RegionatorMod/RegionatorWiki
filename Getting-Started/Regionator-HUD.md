@@ -10,7 +10,8 @@ a dismantle, placing a Move or Copy, or watching a background job.
 - **Title and badge**: "Regionator" with a colored badge naming the mode (Dismantle red, Replace
   blue, Move orange, Copy purple, Blueprint gold, Fill green, Clear light blue).
 - **Chips**: the region shape, the box size or sphere radius in meters, the region count, a live
-  count of buildings and types inside, and how many the [type filter](Type-Filtering) removed.
+  count of buildings and types inside, how many are marked as [auto pillars](Auto-Pillars), and
+  how many the [type filter](Type-Filtering) removed.
 - **Estimate**: what the confirm would do, for example the dismantle refund and where it goes.
   Short notices (in amber) appear here and give way to the estimate again. Over the volume
   limit the line reads "Over the volume limit, shrink selection to confirm" and stays until the
