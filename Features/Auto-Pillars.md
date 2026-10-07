@@ -49,8 +49,9 @@ A column does not extend when:
 
 One placement adds at most 5000 extra pieces, all columns together, and a column reaches at most
 1 km down. For very tall builds, raise **Auto pillar limit** under **Mods > Regionator > General**
-(up to 100000); a very large placement can pause the game for a moment while it is built. A
-column that would go past the limit does not extend at all. In multiplayer the host's limit
+(up to 100000). The extra pieces go up over a moment after the blueprint is placed, from the top
+of each column down, so even a very tall build does not stall the game. A column that would go
+past the limit does not extend at all. In multiplayer the host's limit
 applies to everyone.
 
 ## Notes
