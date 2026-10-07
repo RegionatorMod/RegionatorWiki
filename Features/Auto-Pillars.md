@@ -47,7 +47,11 @@ A column does not extend when:
 - it already stands on another building of the blueprint;
 - nothing solid is below it, or it would pass through another column.
 
-At most 64 repeats per column and 2000 extra pieces per placement.
+One placement adds at most 5000 extra pieces, all columns together, and a column reaches at most
+1 km down. For very tall builds, raise **Auto pillar limit** under **Mods > Regionator > General**
+(up to 100000); a very large placement can pause the game for a moment while it is built. A
+column that would go past the limit does not extend at all. In multiplayer the host's limit
+applies to everyone.
 
 ## Notes
 
