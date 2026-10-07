@@ -14,11 +14,13 @@ switch takes effect at once, with no restart.
 
 1. In [Save Blueprint](Save-Blueprint) or [Copy](Copy), draw the selection as usual until both
    anchors of a region are down.
-2. Press **Regionator: mark auto pillars** (`Left Ctrl + P` on the keyboard, `L3 + Menu` on a
+2. Press **Regionator: mark auto pillars** (`Left Ctrl + P` on the keyboard, `L3 + LT` on a
    controller; see [Controls](Controls)). The region is frozen and a teal marking region starts.
 3. Draw the marking region around the pillars that should reach down. Buildings of the selection
    inside it are outlined in blue instead of the selection's red, and the
-   [Regionator HUD](Regionator-HUD) counts them under **Auto pillars**.
+   [Regionator HUD](Regionator-HUD) counts them under **Auto pillars**. A marked building whose
+   column cannot extend wherever the blueprint goes is outlined in yellow instead (see
+   [What extends](#what-extends)).
 4. Confirm as usual.
 
 A marking region adds nothing to the selection: it only marks what the selection already holds.
@@ -31,6 +33,10 @@ While you hold the blueprint, the hologram shows each marked column reaching dow
 or to a lower floor of the same blueprint, measured where the hologram stands. Move it and the
 columns follow, and so does the cost. When you place it, the extra pieces are built with it and
 charged with it, and dismantling the blueprint takes them down too. Ctrl + Z does not remove them.
+
+The extra pieces follow the same rules as any building: while a player, a creature or a vehicle
+stands where one would go, the hologram turns red and says what is in the way, and the blueprint
+cannot be placed until it moves. Columns reach past them to the ground below.
 
 A Copy is placed straight away. A saved blueprint keeps its marks: picking it from the blueprint
 menu later extends it the same way, wherever you put it.

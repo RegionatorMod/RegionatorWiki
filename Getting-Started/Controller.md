@@ -28,7 +28,7 @@ Every command has a pad key of its own, a chord on the left stick click. Hold `L
 - `A` to freeze the region and [add another](Regions).
 - `Y` to switch the region between a box and a [sphere](Regions).
 - `R3` for [Snap to Origin](Snap-To-Origin).
-- `Menu` to start a marking region for [Auto Pillars](Auto-Pillars).
+- `LT` to start a marking region for [Auto Pillars](Auto-Pillars).
 - `B` to switch the nudge target while the region is locked.
 
 All but equip only count while the tool, a blueprint hologram or the dismantle tool is in hand.

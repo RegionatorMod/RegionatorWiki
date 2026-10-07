@@ -14,7 +14,7 @@ hand, so elsewhere those buttons stay the game's. See [Controller and Steam Deck
 | Regionator: add region | `Left Ctrl + N` | `L3 + A` |
 | Regionator: toggle region shape (box / sphere) | `Left Ctrl + B` | `L3 + Y` |
 | Regionator: snap to origin | `Left Ctrl + H` | `L3 + R3` |
-| Regionator: mark auto pillars | `Left Ctrl + P` | `L3 + Menu` |
+| Regionator: mark auto pillars | `Left Ctrl + P` | `L3 + LT` |
 | Switch Build Mode (picks the nudge target; controller page only) | the build-mode key | `L3 + B` |
 
 Everything else is the game's own build-gun controls, unchanged: primary fire places anchors and
