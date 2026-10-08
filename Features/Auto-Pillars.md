@@ -19,8 +19,9 @@ switch takes effect at once, with no restart.
 3. Draw the marking region around the pillars that should reach down. Buildings of the selection
    inside it are outlined in blue instead of the selection's red, and the
    [Regionator HUD](Regionator-HUD) counts them under **Auto pillars**. A marked building whose
-   column cannot extend wherever the blueprint goes is outlined in yellow instead (see
-   [What extends](#what-extends)).
+   column cannot extend wherever the blueprint goes is outlined in yellow instead and left out of
+   that count, and the HUD says why (see [What extends](#what-extends)). With several such
+   columns it names one reason at a time: put it right and the next one shows.
 4. Confirm as usual.
 
 A marking region adds nothing to the selection: it only marks what the selection already holds.
@@ -44,7 +45,8 @@ menu later extends it the same way, wherever you put it.
 ## What extends
 
 A column is a stack of marked pieces along one line, at least 10 degrees below level: a pillar
-upright, or a slanted support at its own angle. A column of several pieces repeats as a whole.
+upright, or a slanted support at its own angle. A beam repeats along its length, so a vertical or
+slanted beam works as a column too. A column of several pieces repeats as a whole.
 
 A column does not extend when:
 
