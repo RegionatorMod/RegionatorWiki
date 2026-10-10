@@ -12,7 +12,10 @@ machine without clipping it leaves the machine out, whatever angle either of the
 
 ## Boxes
 
-1. Click to fix the first corner.
+1. Click to fix the first corner. While you aim at a building, the box turns to match it, the
+   way the game's own holograms line up with a foundation; aim away and it turns back. Scrolling
+   still turns it, from the building's angle. Whatever angle it shows when you click is the
+   angle it keeps (**Snap rotation to highlighted building** in the Mods menu).
 2. The box previews between that corner and the cursor; everything inside is outlined and the
    [HUD](Regionator-HUD) counts it. Click (or press the hologram lock key) to fix the second corner.
 3. The region locks. The game's nudge keys move it; the build-mode key picks what they move:
