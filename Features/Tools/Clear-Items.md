@@ -18,8 +18,9 @@ then a crate at your feet; fluid is deleted.
 Only buildings and things that hold items are selected: machines, belts, pipes, items on the
 ground and dismantle crates.
 
-- Machine inventories: inputs, outputs, buffers and fuel. Power shards and storage containers
-  are left alone.
+- Machine inventories: inputs, outputs, buffers and fuel, train freight platforms and truck
+  and drone stations included. Power shards and storage containers are left alone, and so are
+  splitters and mergers.
 - Belts and conveyor lifts.
 - Items lying on the ground: stacks you dropped and dismantle leftovers. Never the world's own
   pickups: berries, nuts and power slugs respawn where they stand and are left alone.

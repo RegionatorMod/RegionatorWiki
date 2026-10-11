@@ -17,6 +17,8 @@
   and up to 1000000; see [Dismantle](Dismantle).
 - In [multiplayer](Multiplayer) the host's limits apply to every player, and a guest can have at
   most three jobs running on the host at once.
+- One placed blueprint gets at most the **Auto pillar limit** of extra pieces from
+  [auto pillars](Auto-Pillars): 5000 by default, from 100 to 100000.
 - At most 64 [targeted containers](Container-Targeting).
 - The [Dismantle](Dismantle) refund estimate is skipped above 3000 buildings; the dismantle
   itself is unaffected.
@@ -38,6 +40,9 @@
   keeps the items it is carrying: they go into the save as a crate by the player who started
   it, and the game you are playing carries on unchanged. A large [Dismantle](Dismantle) hands
   over the refunds it still owes just before the save. Pipe fluid still on its way is not saved.
+  A save made while a [Move](Move) is still removing the originals, or while
+  [auto pillars](Auto-Pillars) are still going up, waits until that is done (at most a minute),
+  so it does not hold both the copy and the originals, or a blueprint without its pillars.
 - Fluid carried by [Replace](Replace) or [Move](Move) only goes where the pipe network carries
   the same fluid (or none yet) and has room; the rest is lost, as when the game dismantles a
   pipe.

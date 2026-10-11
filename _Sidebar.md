@@ -21,6 +21,7 @@
 - [Container Targeting](Container-Targeting)
 - [Type Filtering](Type-Filtering)
 - [Snap to Origin](Snap-To-Origin)
+- [Auto Pillars](Auto-Pillars)
 
 **Reference**
 

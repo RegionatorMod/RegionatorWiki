@@ -16,7 +16,7 @@
 - **Move**: a hologram will appear from your selection which can be moved to a new location. Machine contents, belt items and pipe fluid are included in the move.
 - **Copy**: a hologram will appear from your selection which can be continually rebuilt (or pasted).
 - **Replace types**: swap foundations, walls, belts, pipes and more for another type, material or
-  color, in place. This mode can also set machine recipes.
+  color, in place. This mode can also set machine recipes and clock speeds, and change miner tiers.
 - **Save a blueprint**: save any region as a normal blueprint, no Blueprint Designer needed.
 - **Clear items**: empty machines, belts, pipes, dropped items and dismantle crates.
 - **Fill inputs**: insert Machine input items from your inventory or selected containers.

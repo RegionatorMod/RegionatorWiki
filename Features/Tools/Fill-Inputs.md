@@ -1,7 +1,8 @@
 # Fill Inputs
 
-Puts machine input items into every manufacturer and fuel generator in the region, from
-[targeted containers](Container-Targeting) and your inventory.
+Puts machine input items into every production machine and every solid-fuel generator (coal,
+biomass, nuclear) in the region, from [targeted containers](Container-Targeting) and your
+inventory. Fluids are never filled, and a machine with no recipe set is skipped.
 
 ## How to use it
 

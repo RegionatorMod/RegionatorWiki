@@ -23,13 +23,15 @@ own rules, and everything it builds is a normal building the vanilla game can lo
   refunds to them.
 - [Type Filtering](Type-Filtering): leave building types out of the selection.
 - [Snap to Origin](Snap-To-Origin): place a Move or Copy a known distance from where it stands.
+- [Auto Pillars](Auto-Pillars): marked pillars of a blueprint reach down to the ground wherever
+  it is placed.
 
 ### Tools
 
 - [Dismantle](Dismantle): the selection is highlighted in the game's dismantle tool, already
   selected, with the refund shown before you dismantle.
 - [Replace](Replace): swap foundations, walls, belts, pipes and more for another type, material
-  or color, in place. It can also set machine recipes.
+  or color, in place. It can also set machine recipes and clock speeds, and change miner tiers.
 - [Move](Move): a hologram of your selection that you move to a new location. Machine contents,
   belt items and pipe fluid come along.
 - [Copy](Copy): a hologram of your selection that you can build again and again, at the normal
