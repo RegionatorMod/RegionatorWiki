@@ -8,15 +8,22 @@ host; this page is what that blueprint carries and costs.
 A blueprint's cost is the buildings' build cost plus the machines' power shards and Somersloops,
 which every blueprint carries so that a copy keeps its overclock. Items on belts are never part
 of a blueprint. A Move is free; a Copy and a menu placement pay that cost per placement. A Move
-kept as a blueprint is free only as that Move: placed from the menu, it costs its normal cost.
+kept as a blueprint is free only as that Move: placed from the menu, it costs its normal cost. A
+blueprint with [auto pillar](Auto-Pillars) marks also costs the extra pieces its columns add
+where you place it.
+
+With the game's No Build Cost on, a Copy or a menu placement costs nothing, power shards,
+Somersloops and any items it carries included, as with any blueprint in the game. Taking
+buildings down gives back only what they held, never their build cost.
 
 ## Include items in Blueprint
 
-**Mods > Regionator > General > Include items in Blueprint** (off by default) makes Move, Copy
-and Save Blueprint also record what the machines and containers hold, the way the game's own
-blueprints do, and counts those items into the cost, so nothing is created from nowhere. The
-setting is read on your own machine, so in a shared world your answer travels with your request.
-A Move carries its originals' contents by hand either way.
+**Mods > Regionator > General > Include items in Blueprint** (off by default) makes Move, Copy and
+Save Blueprint also record what the machines and containers hold, the way the game's own blueprints
+do, and counts those items into the cost, so nothing is created from nowhere (except under No Build
+Cost, where placing a blueprint costs nothing). The setting is read on your own machine, so in a
+shared world your answer travels with your request. A Move carries its originals' contents by hand
+either way.
 
 ## Auto-Connect
 
@@ -46,7 +53,8 @@ blueprints.
 
 ## Large blueprints
 
-Blueprints of 100 or more buildings are placed without the game's build effect to speed up placement.
+Blueprints of 100 or more buildings and foundation pieces are placed without the game's build
+effect to speed up placement.
 
 ## Buildings that can only be built once
 

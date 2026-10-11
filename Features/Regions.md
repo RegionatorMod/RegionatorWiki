@@ -15,7 +15,8 @@ machine without clipping it leaves the machine out, whatever angle either of the
 1. Click to fix the first corner. While you aim at a building, the box turns to match it, the
    way the game's own holograms line up with a foundation; aim away and it turns back. Scrolling
    still turns it, from the building's angle. Whatever angle it shows when you click is the
-   angle it keeps (**Snap rotation to highlighted building** in the Mods menu).
+   angle it keeps (**Snap rotation to highlighted building** in the Mods menu). Belts, pipes,
+   hypertubes, railways and power lines do not turn it: aim at a building.
 2. The box previews between that corner and the cursor; everything inside is outlined and the
    [HUD](Regionator-HUD) counts it. Click (or press the hologram lock key) to fix the second corner.
 3. The region locks. The game's nudge keys move it; the build-mode key picks what they move:
@@ -30,11 +31,11 @@ Nudge, pitch and roll modes) shape the region the same way.
 
 ## Spheres
 
-`Left Ctrl + B` (Regionator: toggle region shape; `L3 + Y` on a controller) switches between box and
-sphere; the shape sticks for later regions and the next equip. The first click sets the center,
-the second the radius, which the HUD reads out in meters. In the adjust step the nudge targets
-are **Move Center** and **Adjust Radius**; a nudge along the line from the center changes the
-radius by exactly the nudge step. Scrolling leaves a sphere as it is.
+`Left Ctrl + B` (Regionator: toggle region shape (box / sphere); `L3 + Y` on a controller) switches
+between box and sphere; the shape sticks for later regions and the next equip. The first click sets
+the center, the second the radius, which the HUD reads out in meters. In the adjust step the nudge
+targets are **Move Center** and **Adjust Radius**; a nudge along the line from the center changes
+the radius by exactly the nudge step. Scrolling leaves a sphere as it is.
 
 > [demo placeholder, about 8 seconds: toggle to sphere, grow it over a tank farm, adjust the radius]
 

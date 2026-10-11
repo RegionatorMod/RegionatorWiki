@@ -28,7 +28,7 @@ nudges move it a known distance from where it stands.
 - The game limits how far a hologram can be nudged from where it was locked; Infinite Nudge
   lifts that limit.
 - It does nothing for a blueprint from the menu (there is no origin to snap to), with the region
-  hologram up, or while a dialog is open; the log says why.
+  hologram up, or while one of Regionator's popups is open.
 
 ## Start at origin
 

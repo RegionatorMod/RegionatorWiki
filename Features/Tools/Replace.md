@@ -33,17 +33,19 @@ Machines (other than miners changing tier), splitters and mergers, pipe junction
 power poles and lights keep their type; the material and color are written onto them where they
 stand, so their connections, items and fluid are untouched. A manufacturer row can also set a
 **production recipe**: the machine is emptied, the recipe set, and items the new recipe cannot
-use are handed back. Recipe changes are free.
+use are handed back. Fluid inside that the new recipe cannot use is lost, as when you change
+the recipe by hand. Recipe changes are free.
 
 ## Clock speed
 
 Every machine whose clock speed the game lets you set (manufacturers, miners, extractors and
 generators) gets a **Clock speed** section under the list when its row is open, once the clock
-speed is unlocked in the game. Machines of one type on one recipe but at different clock speeds
-are listed as separate rows, each tagged with its clock speed. Type a percentage, drag the
-slider, or type the output per minute; **Reset** puts the row back to the clock speed its machines
-run at now. The output field only appears when every machine in the row makes the same amount, so
-a row of miners on nodes of different purity is set by percentage alone.
+speed is unlocked in the game. Machines of one type on one recipe but at different clock speeds are
+listed as separate rows, each one not at 100% tagged with its clock speed. Type a percentage, drag
+the slider, or type the output per minute; **Reset** puts the row back to the clock speed its
+machines run at now. The output field only appears when every machine in the row makes the same
+amount, so a row of miners on nodes of different purity is set by percentage alone. Generators are
+always set by percentage.
 
 The range is the machine's own: down to 1%, and up to 100% until overclocking is unlocked, then
 up to 250%. Above 100% each machine needs power shards. The shards it is missing are part of the
@@ -56,25 +58,27 @@ does with the machine's own slider.
 Position, curve, beam length, lift height, floor and wall holes, and the connections between
 replaced pieces and to everything around them. Items on replaced belts and lifts go back where
 they were; any that cannot (the belt runs into a machine with no power, paused, or into nothing)
-are handed back at once, and the completion line says why. A replaced pipe keeps its fluid where the new pipe
-has room and carries the same fluid. Throughput monitors are rebuilt on the new belt; one that
-cannot be is refunded.
+are handed back at once, and the completion line counts them. A replaced pipe keeps its fluid
+where the new pipe has room and carries the same fluid. Throughput monitors are rebuilt on the new
+belt; one that cannot be is refunded (except under No Build Cost).
 
 ## Cost
 
 Each replacement costs its recipe scaled by length, the same way the game refunds a belt, pipe or
-beam, so swapping and swapping back cost what they return. Power shards a new clock speed needs
-are part of the cost, and shards taken out are part of the refund. The refund of what comes down
-is netted against the cost per item. What is owed comes from [targeted containers](Container-Targeting),
-then your inventory, then the Dimensional Depot; what is over goes back the same way, then to a
-crate. Under No Build Cost the replacements are free and what they replace gives nothing back, as
-with the game's own dismantle. Power shards are still your own: a new clock speed takes the shards
-it needs from you and hands back the ones it no longer needs.
+beam, so swapping and swapping back cost what they return. Power shards a new clock speed needs are
+part of the cost, and shards taken out are part of the refund. The refund of what comes down is
+netted against the cost per item. What is owed comes from [targeted
+containers](Container-Targeting), then your inventory, then the Dimensional Depot. What is over
+goes to your targeted containers, then your inventory, then a crate at your feet, never into the
+Dimensional Depot. Under No Build Cost the replacements are free and what they replace gives
+nothing back, as with the game's own dismantle. Power shards are still your own: a new clock speed
+takes the shards it needs from you and hands back the ones it no longer needs.
 
 ## Left alone
 
-A power pole a player's hover pack is drawing from, and anything whose removal would take down
-something Replace cannot put back. The HUD lists the reasons when the job ends.
+Anything that would have to be taken down while a player's hover pack is drawing power from it, and
+anything whose removal would take down something Replace cannot put back. The HUD lists the reasons
+when the job ends.
 
 A building that is gone before its turn comes (for example, another player dismantled it while
 the job ran) is listed as no longer there. If its refund was helping to pay for the rest, the

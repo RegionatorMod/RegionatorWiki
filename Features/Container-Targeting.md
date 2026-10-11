@@ -25,7 +25,9 @@ menu as much as a Move or a Copy.
 ## What flows through the targets
 
 - **Refunds and removed items** ([Dismantle](Dismantle), [Clear Items](Clear-Items),
-  [Replace](Replace) overflow): targets first, then your inventory, then one crate at your feet.
+  [Replace](Replace) overflow, and what a [Move](Move) cannot put back: belt items with no belt
+  to go on, power lines with no copy): targets first, then your inventory, then one crate. A
+  dismantle's crate is the game's own, where the buildings stood; the others land at your feet.
 - **Building costs** ([Copy](Copy), [Replace](Replace), a blueprint from the menu): paid from
   the targets first, then your inventory and the Dimensional Depot. The game's cost readout
   counts the targets too.
@@ -42,7 +44,7 @@ never added to the dismantle selection. Putting the dismantle tool away drops it
 
 ## Safety rules
 
-A container inside the region cannot be targeted, and one the region is later moved over is
-dropped from the targets instead, so a target is never dismantled or moved. Targets last until
-the tool is put away, or until a confirmed operation that uses them is over. For a dismantle of
-fewer than 100 buildings that is about a second after you fire.
+A container inside the region cannot be targeted. If the region is later moved over a target, the
+target stays and is left out of the selection, so a target is never dismantled or moved. Targets
+last until the tool is put away, you switch to Save Blueprint, or a confirmed operation that uses
+them is over. For a dismantle of fewer than 100 buildings that is about a second after you fire.

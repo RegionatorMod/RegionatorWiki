@@ -18,7 +18,9 @@ shown before you dismantle.
 - The game's own multi-select keys still add or remove buildings.
 - The game's normal and blueprint dismantle modes can be switched without losing the selection.
 - [Targeted containers](Container-Targeting) receive the refund first, then your inventory, then
-  one dismantle crate at your feet. The HUD says the split before you fire.
+  one dismantle crate, which the game drops where the buildings stood. The HUD says the split
+  before you fire. Under the game's No Build Cost only what the buildings hold comes back, as with
+  the game's own dismantle.
 - A building the game's tool would not take is named on the HUD ("N buildings could not be
   handed to the dismantle tool and will be left standing") and in the log, and the completion
   line repeats the count; nothing is silently skipped.

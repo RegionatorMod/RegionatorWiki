@@ -34,6 +34,8 @@ While you hold the blueprint, the hologram shows each marked column reaching dow
 or to a lower floor of the same blueprint, measured where the hologram stands. Move it and the
 columns follow, and so does the cost. When you place it, the extra pieces are built with it and
 charged with it, and dismantling the blueprint takes them down too. Ctrl + Z does not remove them.
+A save made while the extra pieces are still going up, the autosave included, waits until they
+are all built (at most a minute).
 
 The extra pieces follow the same rules as any building: while a player, a creature or a vehicle
 stands where one would go, the hologram turns red and says what is in the way, and the blueprint
@@ -51,16 +53,17 @@ slanted beam works as a column too. A column of several pieces repeats as a whol
 A column does not extend when:
 
 - it holds belts, lifts, pipes, railways or power lines (anything laid along a path);
-- it has a gap in it, or is thinner than 10 cm;
+- it has a gap in it, or one piece of it is less than 10 cm long along the column (a flat roof,
+  thin trim);
+- one repeat of it holds more than 1024 pieces;
 - it already stands on another building of the blueprint;
-- nothing solid is below it, or it would pass through another column.
+- nothing solid is within 1 km below it, or it would pass through another column.
 
-One placement adds at most 5000 extra pieces, all columns together, and a column reaches at most
-1 km down. For very tall builds, raise **Auto pillar limit** under **Mods > Regionator > General**
-(up to 100000). The extra pieces go up over a moment after the blueprint is placed, from the top
-of each column down, so even a very tall build does not stall the game. A column that would go
-past the limit does not extend at all. In multiplayer the host's limit
-applies to everyone.
+One placement adds at most 5000 extra pieces, all columns together. For very tall builds, raise
+**Auto pillar limit** under **Mods > Regionator > General** (up to 100000). The extra pieces go up
+over a moment after the blueprint is placed, from the top of each column down, so even a very tall
+build does not stall the game. A column that would go past the limit does not extend at all. In
+multiplayer the host's limit applies to everyone.
 
 ## Notes
 

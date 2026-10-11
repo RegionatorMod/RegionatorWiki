@@ -17,7 +17,7 @@ stands.
 - The contents of machines and containers are carried into the copies.
 - Items on belts are put back on the copies' belts where they were. One that cannot go on
   (its belt runs into a machine with no power, paused, or into nothing) is handed back at once,
-  and the completion line says why.
+  and the completion line counts them.
 - The fluid in pipes, fluid buffers and machines goes into the copies where the copy's pipes
   carry the same fluid and have room.
 - A throughput monitor on a moved belt moves with it.
@@ -26,10 +26,10 @@ stands.
 ## The edges of the selection
 
 A belt or power line with an end outside the selection has no copy and stays where it is. A power
-line the game takes down together with its building is refunded. A Move links the copies' belt
-and pipe ends to what the originals were connected to outside, once the originals are gone, so a
-segment can be moved and put back into the gap it came from (see
-[Blueprints and Cost](Blueprints-And-Cost) for Auto-Connect).
+line the game takes down together with its building is refunded (nothing under No Build Cost, as
+with the game's own dismantle). A Move links the copies' belt and pipe ends to what the originals
+were connected to outside, once the originals are gone, so a segment can be moved and put back into
+the gap it came from (see [Blueprints and Cost](Blueprints-And-Cost) for Auto-Connect).
 
 Vehicles are never part of a Move; only [Dismantle](Dismantle) selects them.
 
@@ -58,8 +58,8 @@ History** (**Save each Move as a blueprint**, Mods menu) is charged its normal c
 the blueprint menu.
 
 Saving during a Move is safe. A save made while the originals are still being removed, by you,
-the autosave or the server, waits until they are gone, usually a second or two and never more
-than a minute, so a loaded save never has both the copy and the originals. From the pause menu
+the autosave or the server, waits until they are gone, usually a second or two and at most a
+minute, so a loaded save does not have both the copy and the originals. From the pause menu
 the Move finishes while the menu is open, and the game reports the save a moment later than
 usual.
 

@@ -12,11 +12,11 @@ region is locked and the game's own nudge controls move it: the D-pad nudges, an
 vertical-nudge toggle makes the D-pad's up and down move the region up and down instead of
 forward and back.
 
-While locked, the D-pad is a nudge, so the nudge target (Move Region, Move Anchor 1, Move
-Anchor 2) is picked with `L3 + B`, which does what a tap of the build-mode key does (the
-controller page lists it under the game's name, **Switch Build Mode**); the
-[HUD](Regionator-HUD) names it in that step. Unlocking releases the second anchor to the cursor
-again, as on the keyboard.
+While locked, the D-pad is a nudge, so the nudge target (for a box Move Region, Move Anchor 1, Move
+Anchor 2; for a sphere Move Center, Adjust Radius) is picked with `L3 + B`, which does what a tap
+of the build-mode key does (the controller page lists it under the game's name, **Switch Build
+Mode**); the [HUD](Regionator-HUD) names it in that step. Unlocking releases the second anchor to
+the cursor again, as on the keyboard.
 
 ## Chords
 
@@ -28,7 +28,8 @@ Every command has a pad key of its own, a chord on the left stick click. Hold `L
 - `A` to freeze the region and [add another](Regions).
 - `Y` to switch the region between a box and a [sphere](Regions).
 - `R3` for [Snap to Origin](Snap-To-Origin).
-- `LT` to start a marking region for [Auto Pillars](Auto-Pillars).
+- `LT` to start a marking region for [Auto Pillars](Auto-Pillars) (with **Enable auto pillars**
+  on, in Save Blueprint and Copy, once the current region is finished).
 - `B` to switch the nudge target while the region is locked.
 
 All but equip only count while the tool, a blueprint hologram or the dismantle tool is in hand.
