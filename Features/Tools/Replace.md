@@ -67,8 +67,9 @@ beam, so swapping and swapping back cost what they return. Power shards a new cl
 are part of the cost, and shards taken out are part of the refund. The refund of what comes down
 is netted against the cost per item. What is owed comes from [targeted containers](Container-Targeting),
 then your inventory, then the Dimensional Depot; what is over goes back the same way, then to a
-crate. Under No Build Cost the replacements and the power shards are free, and what they replace
-is refunded in full.
+crate. Under No Build Cost the replacements are free and what they replace gives nothing back, as
+with the game's own dismantle. Power shards are still your own: a new clock speed takes the shards
+it needs from you and hands back the ones it no longer needs.
 
 ## Left alone
 
