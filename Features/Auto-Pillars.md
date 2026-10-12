@@ -48,7 +48,8 @@ menu later extends it the same way, wherever you put it.
 
 A column is a stack of marked pieces along one line, at least 10 degrees below level: a pillar
 upright, or a slanted support at its own angle. A beam repeats along its length, so a vertical or
-slanted beam works as a column too. A column of several pieces repeats as a whole.
+slanted beam works as a column too; a beam laid level stacks straight down instead, like any other
+piece. A column of several pieces repeats as a whole.
 
 A column does not extend when:
 
