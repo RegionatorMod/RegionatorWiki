@@ -35,7 +35,7 @@ selects vehicles; the other modes leave them alone.
 ## Large selections
 
 100 buildings or more are dismantled in the background: the build gun is put away and the HUD
-shows progress. To stop a running dismantle, equip the build gun and press secondary fire.
+shows progress. Once it has started, a dismantle runs to the end.
 
 The game caps how many buildings one dismantle can hold; the mod sets that cap to the
 **Dismantle limit** in the Mods menu, from 100000 (the default) to 1000000. It applies to the
