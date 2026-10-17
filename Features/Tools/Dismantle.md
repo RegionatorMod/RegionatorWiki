@@ -21,6 +21,10 @@ shown before you dismantle.
   one dismantle crate, which the game drops where the buildings stood. The HUD says the split
   before you fire. Under the game's No Build Cost only what the buildings hold comes back, as with
   the game's own dismantle.
+- If your game has a refund stack limit (how many stacks of a refund may go to your inventory,
+  changed only through cheats or other mods), the targeted containers still take what they can
+  first. Past the limit the game's own rule applies: what it would throw away is thrown away, and
+  the HUD counts it before you fire ("N discarded over your refund stack limit").
 - A building the game's tool would not take is named on the HUD ("N buildings could not be
   handed to the dismantle tool and will be left standing") and in the log, and the completion
   line repeats the count; nothing is silently skipped.

@@ -46,7 +46,8 @@ connect; see [Blueprints and Cost](Blueprints-And-Cost).
   nothing. Check **Options > Keybindings > Regionator** for rebinds. On a controller every
   command is a chord: hold `L3` first; apart from equip they only count while the tool, a
   blueprint hologram or the dismantle tool is in hand.
-- **The region is red and confirm does nothing**: the selection is over the volume limit.
+- **The region is red, shows no outlines and confirm does nothing**: the selection is over the
+  volume limit.
   Shrink the region, remove one, or raise **Mods > Regionator > General > Selection volume
   limit factor**; see [Limits and Known Issues](Limits-And-Known-Issues).
 - **"The selection did not reach the host. Try again."**: a large selection is sent to the host

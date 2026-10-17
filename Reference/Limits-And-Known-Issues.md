@@ -10,9 +10,9 @@
 - A selection also has a volume limit, the **Selection volume limit factor** in the Mods menu.
   The factor cubed is the most space all your regions may enclose together: the default of 500
   allows a 500 x 500 x 500 m box, or a sphere or several regions of the same volume; it can be
-  raised to 10000. While the regions enclose more than that, the region in hand turns red, the
-  HUD says "Over the volume limit, shrink selection to confirm", and confirming does nothing
-  until the selection is made smaller.
+  raised to 10000. While the regions enclose more than that, the region in hand turns red and
+  shows no outlines, the HUD says "Over the volume limit, shrink selection to confirm" and drops
+  its building and type counts, and confirming does nothing until the selection is made smaller.
 - The game's dismantle tool holds at most the **Dismantle limit**, 100000 buildings by default
   and up to 1000000; see [Dismantle](Dismantle).
 - In [multiplayer](Multiplayer) the host's limits apply to every player, and a guest can have at
@@ -49,7 +49,5 @@
 - A [Move](Move) links its copies to what the originals were linked to outside the selection for
   belts and pipes only. A railroad track joins the track graph when it is built, so a copied
   track is joined only where the game's own Auto-Connect joins it.
-- Items carried onto a copy's belts during a Move reach other players only when the belt next
-  sends its full state.
 
 See also [Multiplayer](Multiplayer) and [Troubleshooting](Troubleshooting).

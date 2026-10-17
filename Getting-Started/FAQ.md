@@ -44,7 +44,8 @@ A mod not listed has not been checked yet. If something goes wrong with one, see
 [Troubleshooting](Troubleshooting).
 
 **Does it work in multiplayer?**
-Multiplayer is not tested yet. Reports are welcome; see [Multiplayer](Multiplayer).
+Tested on a dedicated server with one guest; two players at once, and hosting from your own
+game, are not tested yet. Reports are welcome; see [Multiplayer](Multiplayer).
 
 **Does it work on a controller?**
 Yes, fully; see [Controller and Steam Deck](Controller).

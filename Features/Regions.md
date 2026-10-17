@@ -55,8 +55,8 @@ selection inside it as auto pillars.
 
 All your regions together may enclose no more than the volume limit, a 500 x 500 x 500 m box or
 the same volume in any shape by default (**Selection volume limit factor** in the Mods menu).
-Past it the region in hand turns red and the [HUD](Regionator-HUD) says so; confirming waits until
-the selection fits again. Where regions overlap, the shared space counts once. See
+Past it the region in hand turns red and shows no outlines, and the [HUD](Regionator-HUD) says so;
+confirming waits until the selection fits again. Where regions overlap, the shared space counts once. See
 [Limits and Known Issues](Limits-And-Known-Issues).
 
 ## Rotation and what it means

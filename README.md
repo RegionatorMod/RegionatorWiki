@@ -82,7 +82,8 @@ Regionator has direct support for several mods, many of which we recommend you a
 - Big jobs run in the background to prevent lag and freezing for large dismantles or builds.
 - A selection holds up to 35000 buildings and 500 x 500 x 500 m by default. Both limits can be
   raised in the Mods menu.
-- Multiplayer is not tested yet. Reports are welcome.
+- Multiplayer is tested on a dedicated server with one guest. Two players at once, and hosting
+  from your own game, are not tested yet. Reports are welcome.
 
 
 

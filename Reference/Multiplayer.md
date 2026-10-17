@@ -1,6 +1,7 @@
 # Multiplayer
 
-Multiplayer is not tested yet. Reports from multiplayer sessions are welcome.
+Multiplayer is tested on a dedicated server with one guest. Two players at once, and hosting
+from your own game, are not tested yet. Reports from multiplayer sessions are welcome.
 
 ## How it is built
 
@@ -33,5 +34,3 @@ to the player who asked for it.
 ## Known soft spots
 
 - On a dedicated server, selection can miss buildings your game has not received yet.
-- Items carried onto a copy's belts during a Move reach other players only when the belt next
-  sends its full state.

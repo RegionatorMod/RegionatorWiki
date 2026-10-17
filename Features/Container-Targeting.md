@@ -28,6 +28,8 @@ menu as much as a Move or a Copy.
   [Replace](Replace) overflow, and what a [Move](Move) cannot put back: belt items with no belt
   to go on, power lines with no copy): targets first, then your inventory, then one crate. A
   dismantle's crate is the game's own, where the buildings stood; the others land at your feet.
+  A game with a refund stack limit keeps its own rule for a dismantle, after the targets; see
+  [Dismantle](Dismantle).
 - **Building costs** ([Copy](Copy), [Replace](Replace), a blueprint from the menu): paid from
   the targets first, then your inventory and the Dimensional Depot. The game's cost readout
   counts the targets too.

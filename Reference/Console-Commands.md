@@ -28,6 +28,7 @@ Several can be joined with commas: `-dpcvars=Regionator.TraceDismantle=1,Regiona
 | `Regionator.WorkChunkSize` | 0 | Immediately | Sends selections to the host in pieces of at most this many entries. 0 means the normal 4000; larger values count as 4000. For testing. |
 | `Regionator.TraceAutoPillarPawns` | 0 (off) | Immediately | Twice a second, logs what the auto pillar check finds in the way of a column: players, creatures and vehicles. For reporting columns that will not build because something seems to block them; see [Auto Pillars](Auto-Pillars). |
 | `Regionator.HoldJobs` | 0 (off) | Immediately | Pauses the mod's running jobs (Replace, Move, Fill inputs, Clear items, auto pillars being built, and a large Copy, Save Blueprint or dismantle) after this many steps, until it is set back to 0. Set it on the host. For testing what happens to a job that is interrupted, by a save for example; a save made while a Move or an auto pillar build is held this way waits for it for up to a minute. Leave it at 0 to play. |
+| `Regionator.DelayMoveRemoval` | 0 (off) | Immediately | A Move you place waits this many seconds (at most 120) before the originals start being removed. Set it on the game of the player placing the Move. For testing what happens when a save, or a player leaving, comes in that moment in [multiplayer](Multiplayer). Leave it at 0 to play. |
 
 Type a switch and its value in the console: `Regionator.TracePadDialog 1` switches it on, `0`
 switches it off, and `Regionator.HoldJobs 3` sets a number. This works for the switches read

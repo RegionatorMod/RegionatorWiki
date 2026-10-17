@@ -16,8 +16,8 @@ a dismantle, placing a Move or Copy, or watching a background job.
   Short notices (in amber) appear here and give way to the estimate again. With yellow [auto
   pillar](Auto-Pillars) marks it names why one cannot extend, one reason at a time. Over the volume
   limit the line reads "Over the volume limit, shrink selection to confirm" and stays until the
-  selection fits; the region in hand is red at the same time (see [Limits and Known
-  Issues](Limits-And-Known-Issues)).
+  selection fits. Until then the region in hand is red and shows no outlines, and the chips keep
+  only the shape, size and region count (see [Limits and Known Issues](Limits-And-Known-Issues)).
 - **Keys**: the keys that do something right now, as key caps with their action. The caps follow
   your input device; on a controller the caps name the pad chords.
 
