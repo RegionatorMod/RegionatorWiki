@@ -5,7 +5,7 @@ Regionator is free and unlocked from the start.
 ## Your first dismantle
 
 1. Equip the tool: build menu > **Special** > **Selection** > **Regionator**, put it on a hotbar
-   slot, or press `K` (`L3 + LB` on a controller; the equip key also puts it away).
+   slot, or press `J` (`L3 + LB` on a controller; the equip key also puts it away).
 2. Press the game's build-mode key and pick **Dismantle** (the mode is remembered for next time).
 3. Click once to set the first corner of the box. Aimed at a building, the box turns to match
    it (**Snap rotation to highlighted building**, on by default).

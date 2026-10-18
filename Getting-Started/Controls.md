@@ -8,7 +8,7 @@ hand, so elsewhere those buttons stay the game's. See [Controller and Steam Deck
 
 | Action (as the options menu names it) | Keyboard | Controller |
 |---|---|---|
-| Regionator: equip tool | `K` | `L3 + LB` |
+| Regionator: equip tool | `J` | `L3 + LB` |
 | Regionator: filter building types | `U` | `L3 + X` |
 | Regionator: target hovered container | `Left Alt` (tap) | `L3 + RB` |
 | Regionator: add region | `Left Ctrl + N` | `L3 + A` |

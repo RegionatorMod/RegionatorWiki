@@ -64,7 +64,7 @@ Also included:
 
 ## Quick start
 
-1. Press `K`, or find **Regionator** in the build menu under **Special > Selection**.
+1. Press `J`, or find **Regionator** in the build menu under **Special > Selection**.
 2. Press the build mode key to pick a mode.
 3. Click twice to draw a box, adjust it, then click again to confirm. Right-click steps back.
 4. `Left Ctrl + B` for a sphere, `Left Ctrl + N` to add a region, `U` to filter types, and a tap
