@@ -26,7 +26,7 @@ Right-click (secondary fire) steps back one stage at any point before the confir
 - `Left Ctrl + B` (`L3 + Y` on a controller) switches the region between a box and a
   [sphere](Regions).
 - `Left Ctrl + N` (`L3 + A`) freezes the current region and starts [another one](Regions).
-- `U` (`L3 + X`) opens the [type filter](Type-Filtering).
+- `L` (`L3 + X`) opens the [type filter](Type-Filtering).
 - A tap of `Left Alt` (`L3 + RB`) on a hovered storage container
   [targets it](Container-Targeting) so refunds and costs go through it.
 

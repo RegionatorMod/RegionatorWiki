@@ -4,7 +4,7 @@ Leave building types out of the selection, in every mode.
 
 ## How to use it
 
-1. With a region drawn over something, press **Regionator: filter building types** (default `U`).
+1. With a region drawn over something, press **Regionator: filter building types** (default `L`).
 2. A popup lists every building type in the region with a checkbox each. Untick what should be
    left alone.
 3. The [HUD](Regionator-HUD) counts what the filter removed, and the outlines follow.
