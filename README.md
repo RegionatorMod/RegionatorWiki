@@ -36,7 +36,7 @@ Also included:
 
 ## Preview Video
 
-<a href="https://www.youtube.com/watch?v=QiinNjiSars"><img alt="Watch the Regionator preview video on YouTube" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/hero.png" width="800" loading="lazy"></a>
+<a href="https://www.youtube.com/watch?v=QiinNjiSars"><img alt="Watch the Regionator preview video on YouTube" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/preview_video.webp" width="800" loading="lazy"></a>
 
 ## Example Use Cases
 
