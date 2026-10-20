@@ -11,7 +11,7 @@ inventory. Fluids are never filled, and a machine with no recipe set is skipped.
 3. The items are taken from the targets first, then your inventory, and split evenly across the
    machines that accept them.
 
-> [demo placeholder, about 8 seconds: fill a smelter row from a targeted container]
+<img alt="Filling the inputs of a row of machines" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/fill_inputs.webp" width="800" loading="lazy">
 
 ## Choosing what goes in
 

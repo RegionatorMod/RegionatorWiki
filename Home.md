@@ -6,7 +6,7 @@ dismantle, move, copy, replace types, save a blueprint, clear items, or fill inp
 Regionator is a bulk-editing tool, not a creative mode. Costs are paid, refunds follow the game's
 own rules, and everything it builds is a normal building the vanilla game can load without the mod.
 
-> [image placeholder: hero shot, a box region drawn over a factory row with the HUD visible]
+<img alt="A box region drawn over a factory row, with the Regionator HUD showing what it holds" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/hero.png" width="800" loading="lazy">
 
 ## Getting started
 

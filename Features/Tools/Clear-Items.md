@@ -11,7 +11,7 @@ then a crate at your feet; fluid is deleted.
    If the game saves while one runs, the items it has taken out so far are put in that save as a
    crate at your feet; the clear itself carries on as normal.
 
-> [demo placeholder, about 8 seconds: clear a belt bus, items landing in a targeted container]
+<img alt="Clearing the items off a belt bus in one go" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/clear_items.webp" width="800" loading="lazy">
 
 ## What is emptied
 

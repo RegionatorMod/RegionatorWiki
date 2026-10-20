@@ -3,7 +3,7 @@
 The HUD is the mod's on-screen readout. It follows what you are doing: shaping a region, holding
 a dismantle, placing a Move or Copy, or watching a background job.
 
-> [screenshot placeholder: the region HUD with the mode badge, chips row, estimate and key caps]
+<img alt="The Regionator HUD with the mode badge, the region's size and building count, the refund estimate and the key hints" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/hud.png" width="600" loading="lazy">
 
 ## While shaping a region
 

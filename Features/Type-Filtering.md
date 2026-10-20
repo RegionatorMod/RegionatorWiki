@@ -11,7 +11,7 @@ Leave building types out of the selection, in every mode.
 4. Confirm the popup to keep the ticks. Cancel or `Escape` puts them back as they were when the
    popup opened.
 
-> [screenshot placeholder: the filter popup over a mixed region]
+<img alt="The filter popup listing every building type in the region with its count" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/filter_popup.png" width="600" loading="lazy">
 
 ## Notes
 

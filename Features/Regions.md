@@ -37,7 +37,7 @@ the center, the second the radius, which the HUD reads out in meters. In the adj
 targets are **Move Center** and **Adjust Radius**; a nudge along the line from the center changes
 the radius by exactly the nudge step. Scrolling leaves a sphere as it is.
 
-> [demo placeholder, about 8 seconds: toggle to sphere, grow it over a tank farm, adjust the radius]
+<img alt="Switching to a sphere region and growing it over a group of buildings" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/sphere.webp" width="800" loading="lazy">
 
 ## Several regions
 

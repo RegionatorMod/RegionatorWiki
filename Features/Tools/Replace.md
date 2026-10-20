@@ -14,7 +14,7 @@ will do.
 3. Confirm the popup. The host re-checks the whole mapping and refuses it if it can no longer be
    paid for.
 
-> [screenshot placeholder: the Replace popup with building rows, a recipe list and the palette]
+<img alt="The Replace popup with the building rows, a recipe list and the color palette" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/replace_popup.png" width="600" loading="lazy">
 
 ## What can become another type
 

@@ -11,7 +11,7 @@ shown before you dismantle.
 3. Fire once to dismantle. Until you fire, secondary fire cancels and returns the selection
    untouched.
 
-> [demo placeholder, about 10 seconds: confirm a region, read the HUD, fire]
+<img alt="Confirming a region over a factory, reading the HUD and dismantling it" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/dismantle.webp" width="800" loading="lazy">
 
 ## While the selection is held
 

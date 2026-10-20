@@ -10,7 +10,7 @@ normal build cost.
    [targeted containers](Container-Targeting), then your inventory and the Dimensional Depot.
 3. Put the hologram away when you are done; that deletes the temporary blueprint.
 
-> [demo placeholder, about 10 seconds: copy a machine row and stamp it three times]
+<img alt="Copying a machine row and placing the copy" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/copy.webp" width="800" loading="lazy">
 
 ## Notes
 

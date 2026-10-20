@@ -14,7 +14,7 @@ go to the container, then your inventory, then a dismantle crate.
 2. Press **Regionator: target hovered container** (default `Left Alt`, a quick tap) to toggle it as a target.
    A target is outlined and boxed so it stands out from a distance.
 
-> [screenshot placeholder: two targeted containers with their outline and box]
+<img alt="A targeted container shown with its outline and box" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/targeted_container.png" width="800" loading="lazy">
 
 Up to 64 containers can be targeted. A Dimensional Depot cannot be, nor a death crate: the mod
 never puts items into a death crate or takes any out. The key works at every step of the tool in

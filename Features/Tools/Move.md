@@ -10,7 +10,7 @@ stands.
 2. The selection is written as a free temporary blueprint and its hologram is put in your hand.
 3. Place it once. Secondary fire drops the move instead.
 
-> [demo placeholder, about 10 seconds: pick up a container row, nudge, place, items carried over]
+<img alt="Picking up a factory row and placing it somewhere else" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/move.webp" width="800" loading="lazy">
 
 ## What moves with it
 

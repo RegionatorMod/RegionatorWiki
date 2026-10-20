@@ -7,8 +7,7 @@ added to the cost and built with the blueprint.
 Off by default: switch it on under **Mods > Regionator > General > Enable auto pillars**. The
 switch takes effect at once, with no restart.
 
-> [demo placeholder, about 10 seconds: mark the pillars of a platform, save it, place it on a
-> hillside, the pillars reach the ground at every corner]
+<img alt="Marking pillars on a platform, then placing it so the pillars reach the ground" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/auto_pillars.webp" width="800" loading="lazy">
 
 ## Marking
 

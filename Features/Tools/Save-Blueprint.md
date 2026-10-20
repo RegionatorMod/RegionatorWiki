@@ -12,7 +12,7 @@ needed, and the region can be any size up to the [volume limit](Limits-And-Known
 3. Save. The blueprint is filed under **Regionator > Blueprints** in the blueprint menu, with a
    number added to the name if it was taken.
 
-> [screenshot placeholder: the save dialog with the icon search open]
+<img alt="The save dialog with the name, description, color and icon choices" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/save_dialog.png" width="600" loading="lazy">
 
 ## Notes
 

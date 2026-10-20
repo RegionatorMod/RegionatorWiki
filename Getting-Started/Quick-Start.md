@@ -15,7 +15,7 @@ Regionator is free and unlocked from the start.
 6. The selection is handed to the game's own dismantle tool. Fire to dismantle; until you fire,
    secondary fire cancels.
 
-> [demo placeholder, about 15 seconds: steps 2 to 6 over a factory row]
+<img alt="Choosing a tool from the wheel, drawing a box over a factory row and dismantling it" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/quick_start.webp" width="800" loading="lazy">
 
 Right-click (secondary fire) steps back one stage at any point before the confirm.
 
