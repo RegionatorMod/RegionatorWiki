@@ -34,6 +34,10 @@ Also included:
   items, so a large blueprint is not limited by what fits in your inventory. Dismantle refunds and
   cleared items can be sent into it too.
 
+## Preview Video
+
+<a href="https://www.youtube.com/watch?v=QiinNjiSars"><img alt="Watch the Regionator preview video on YouTube" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/hero.png" width="800" loading="lazy"></a>
+
 ## Example Use Cases
 
 <details name="examples" open>
@@ -88,7 +92,5 @@ Regionator has direct support for several mods, many of which we recommend you a
 
 **Multiplayer:** tested on a dedicated server with one guest. Two players at once, and hosting from
 your own game, are not tested yet. Reports are welcome.
-
-**Documentation:** https://github.com/RegionatorMod/RegionatorWiki/wiki
 
 **Bugs and feedback:** https://github.com/RegionatorMod/RegionatorWiki/issues
