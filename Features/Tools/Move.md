@@ -52,10 +52,15 @@ thousands of pieces the game pauses briefly while it builds the hologram.
 ## Safety
 
 A Move never removes what it cannot prove it copied: an original whose copy cannot be found stays
-standing, with everything it holds. The originals are removed without a refund, because the free
-copy is the refund. Only that one placement is free: a Move kept under **Regionator > Move
+standing, with everything it holds. If the game refuses to remove an original, such as a railway
+with a train on it, that original stays and its copy is removed, so you never end up with two.
+The originals are removed without a refund, because the free copy is the refund. Only that one placement is free: a Move kept under **Regionator > Move
 History** (**Save each Move as a blueprint**, Mods menu) is charged its normal cost when built from
 the blueprint menu.
+
+From the moment you confirm a Move until its originals are removed, nobody (you or another
+player) can dismantle its buildings, and new Regionator selections skip them. See
+[Dismantle](Dismantle#buildings-in-use).
 
 Saving during a Move is safe. A save made while the originals are still being removed, by you,
 the autosave or the server, waits until they are gone, usually a second or two and at most a

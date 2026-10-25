@@ -19,9 +19,11 @@ nudges move it a known distance from where it stands.
 
 - Pressing the key again returns to the originals, undoing the nudges, and stays locked. The
   game's lock key unlocks as usual.
-- A Copy stays locked after each placement, so nudge and place again makes evenly spaced copies.
-  At the originals a Copy is red until nudged off them; a Move may be placed anywhere, including
-  over its own originals.
+- After you place a snapped Copy, the next hologram starts locked where you placed the last one,
+  so nudge and place again makes evenly spaced copies. Unlock with the game's lock key to place
+  freely again. At the
+  originals a Copy is red until nudged off them; a Move may be placed anywhere, including over
+  its own originals.
 - With Auto-Connect on, a locked hologram is never pulled toward a nearby open end, so each
   nudge moves it exactly one step. Unlocked, it snaps to open ends as usual (see
   [Blueprints and Cost](Blueprints-And-Cost)).

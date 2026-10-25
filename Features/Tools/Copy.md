@@ -17,10 +17,11 @@ normal build cost.
 - What you build is a native blueprint, so the game's blueprint dismantle picks it up again.
 - The copies face the way the originals stand; aiming at a foundation adopts that floor's angle,
   like any blueprint from the menu.
-- [Snap to Origin](Snap-To-Origin) keeps a Copy locked after each placement, so nudge and place
-  again makes evenly spaced rows. At the originals a Copy is red until nudged off them. With
-  **Start at origin** on (Mods menu, Copy section) every Copy begins that way without the key
-  press.
+- After you place a [snapped](Snap-To-Origin) Copy, the next hologram starts locked where you
+  placed the last one, so nudge and place again makes evenly spaced rows. Unlock with the game's
+  lock key to place freely again. At the originals a Copy is red until nudged off them.
+- With **Start at origin** on (Mods menu, Copy section) every new Copy starts snapped on its
+  originals without the key press.
 - The cost and what a blueprint carries are on [Blueprints and Cost](Blueprints-And-Cost).
 - With [Auto Pillars](Auto-Pillars) on, marked pillars reach down to the ground at every
   placement, however high the copy stands.

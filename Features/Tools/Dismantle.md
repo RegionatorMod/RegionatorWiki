@@ -29,6 +29,14 @@ shown before you dismantle.
   handed to the dismantle tool and will be left standing") and in the log, and the completion
   line repeats the count; nothing is silently skipped.
 
+## Buildings in use
+
+Buildings in a [Move](Move) cannot be dismantled from the moment the Move is confirmed until its
+originals are removed. The same goes while a large [Copy](Copy) or
+[Save Blueprint](Save-Blueprint) is being written, until its hologram comes up or the blueprint
+is saved. This applies to every player, and the game's dismantle tool shows "Being moved or saved
+by Regionator" over them.
+
 ## Vehicles
 
 Trucks, tractors, explorers, drones and trains inside the region are selected too: outlined,

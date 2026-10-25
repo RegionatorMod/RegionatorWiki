@@ -11,7 +11,9 @@ a dismantle, placing a Move or Copy, or watching a background job.
   blue, Move orange, Copy purple, Save Blueprint gold, Fill inputs green, Clear items light blue).
 - **Chips**: the region shape, the box size or sphere radius in meters, the region count once there
   is more than one, a live count of buildings and types inside, how many are marked as [auto
-  pillars](Auto-Pillars), and how many the [type filter](Type-Filtering) removed.
+  pillars](Auto-Pillars), how many the [type filter](Type-Filtering) removed, and how many were
+  left out because a Move, Copy or Save Blueprint is still using them (see
+  [Dismantle](Dismantle#buildings-in-use)).
 - **Estimate**: what the confirm would do, for example the dismantle refund and where it goes.
   Short notices (in amber) appear here and give way to the estimate again. With yellow [auto
   pillar](Auto-Pillars) marks it names why one cannot extend, one reason at a time. Over the volume
