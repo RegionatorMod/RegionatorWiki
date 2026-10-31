@@ -1,52 +1,35 @@
 # Container Targeting
 
-Route refunds, removed items and building costs through storage containers instead of your
-inventory.
+Pay for builds from storage containers, and send refunds to them, instead of your inventory.
 
-Building a large blueprint, even when you cannot hold all the required items in your inventory?
-Load the items into a container, then target the container while the blueprint hologram is in
-hand. This works for any mode that costs resources (Copy, Replace), and in Dismantle the refunds
-go to the container, then your inventory, then a dismantle crate.
+Building a blueprint bigger than your inventory can carry? Load the items into a container and
+target it while the hologram is in hand.
 
 ## How to use it
 
 1. Aim at a storage container or a dismantle crate.
-2. Press **Regionator: target hovered container** (default `Left Alt`, a quick tap) to toggle it as a target.
-   A target is outlined and boxed so it stands out from a distance.
+2. Tap **Regionator: target hovered container** (`Left Alt`). Tap again to untarget it. Targets
+   are outlined so they stand out from a distance.
 
 <img alt="A targeted container shown with its outline and box" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/targeted_container.png" width="800" loading="lazy">
 
-Up to 64 containers can be targeted. A Dimensional Depot cannot be, nor a death crate: the mod
-never puts items into a death crate or takes any out. The key works at every step of the tool in
-every mode that moves items or pays for buildings (Save Blueprint does neither, so the key is not
-offered there), and also while the build gun holds any blueprint hologram, one from the blueprint
-menu as much as a Move or a Copy.
+Up to 64 containers can be targeted. The Dimensional Depot and death crates cannot be. The key
+works with the tool, any blueprint hologram (including ones from the blueprint menu), and the
+game's own dismantle tool.
 
-## What flows through the targets
+## What goes through the targets
 
 - **Refunds and removed items** ([Dismantle](Dismantle), [Clear Items](Clear-Items),
-  [Replace](Replace) overflow, and what a [Move](Move) cannot put back: belt items with no belt
-  to go on, power lines with no copy): targets first, then your inventory, then one crate. A
-  dismantle's crate is the game's own, where the buildings stood; the others land at your feet.
-  A game with a refund stack limit keeps its own rule for a dismantle, after the targets; see
-  [Dismantle](Dismantle).
-- **Building costs** ([Copy](Copy), [Replace](Replace), a blueprint from the menu): paid from
-  the targets first, then your inventory and the Dimensional Depot. The game's cost readout
-  counts the targets too.
-- **[Fill Inputs](Fill-Inputs)**: items come from the targets first, then your inventory.
+  [Replace](Replace), [Move](Move)): targets first, then your inventory, then a crate. Never the
+  Dimensional Depot.
+- **Building costs** ([Copy](Copy), [Replace](Replace), blueprints from the menu): targets first,
+  then your inventory and the Dimensional Depot.
+- **[Fill Inputs](Fill-Inputs)**: targets first, then your inventory. The Depot is not used.
 
-Before you confirm, the [HUD](Regionator-HUD) says where things will end up, naming only the
-destinations that receive something.
+The [HUD](Regionator-HUD) shows where things will go before you confirm.
 
-## With the game's own dismantle tool
+## Safety
 
-Targeting also works with the game's dismantle tool in hand and no region at all: refunds go to
-the targets first. A container already selected for dismantle cannot be targeted, and a target is
-never added to the dismantle selection. Putting the dismantle tool away drops its targets.
-
-## Safety rules
-
-A container inside the region cannot be targeted. If the region is later moved over a target, the
-target stays and is left out of the selection, so a target is never dismantled or moved. Targets
-last until the tool is put away, you switch to Save Blueprint, or a confirmed operation that uses
-them is over. For a dismantle of fewer than 100 buildings that is about a second after you fire.
+A container inside the region cannot be targeted, and a target is never dismantled or moved.
+Targets are released when you put the tool or hologram away, or when the operation that used
+them finishes. A Copy keeps them for every placement until you put the hologram away.

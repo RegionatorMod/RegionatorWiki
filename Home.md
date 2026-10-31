@@ -28,10 +28,11 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 
 ### Tools
 
-- [Dismantle](Dismantle): the selection is highlighted in the game's dismantle tool, already
-  selected, with the refund shown before you dismantle.
+- [Dismantle](Dismantle): hand the selection to the game's dismantle tool, ready to remove in
+  one shot.
 - [Replace](Replace): swap foundations, walls, belts, pipes and more for another type, material
-  or color, in place. It can also set machine recipes and clock speeds, and change miner tiers.
+  or color, in place. It can also set machine recipes and clock speeds, change miner tiers, and
+  edit signs.
 - [Move](Move): a hologram of your selection that you move to a new location. Machine contents,
   belt items and pipe fluid come along.
 - [Copy](Copy): a hologram of your selection that you can build again and again, at the normal
@@ -49,4 +50,4 @@ own rules, and everything it builds is a normal building the vanilla game can lo
 - [Limits and Known Issues](Limits-And-Known-Issues)
 - [Multiplayer](Multiplayer)
 - [Troubleshooting](Troubleshooting)
-- [Console Commands](Console-Commands): the two fix switches and the log detail, both optional.
+- [Console Commands](Console-Commands): optional switches and log detail.

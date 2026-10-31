@@ -4,26 +4,15 @@ Leave building types out of the selection, in every mode.
 
 ## How to use it
 
-1. With a region drawn over something, press **Regionator: filter building types** (default `L`).
-2. A popup lists every building type in the region with a checkbox each. Untick what should be
-   left alone.
-3. The [HUD](Regionator-HUD) counts what the filter removed, and the outlines follow.
-4. Confirm the popup to keep the ticks. Cancel or `Escape` puts them back as they were when the
-   popup opened.
+1. With a region drawn, press **Regionator: filter building types** (`L`).
+2. Untick the types to leave out. The outlines and the [HUD](Regionator-HUD) follow.
+3. Confirm the popup to keep your choice, or cancel to undo it.
 
 <img alt="The filter popup listing every building type in the region with its count" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/filter_popup.png" width="600" loading="lazy">
 
 ## Notes
 
-- Type in the search box above a list to narrow it down. The letters only need to appear in
-  order, so `aspfnd` finds Asphalt Foundation. While a search is active, **All** and **None**
-  change only the types it shows, and the ones it hides keep their ticks. `Escape` clears the
-  search first, then cancels the popup.
-- The filter lasts until you change it, across regions and equips.
-- While the selection is over the [volume limit](Limits-And-Known-Issues) the popup does not
-  open; shrink the selection first.
-- In [Dismantle](Dismantle) the list also names the vehicles inside the region, such as Drone or
-  Truck. The other modes never select vehicles.
-- In [Fill Inputs](Fill-Inputs) the popup also lists the **items to fill**, and in
-  [Clear Items](Clear-Items) the **items to clear**, each with its own checkboxes. The two item
-  lists are remembered separately. Each list has its own search box.
+- The search box matches letters in order, so `aspfnd` finds Asphalt Foundation.
+- The filter stays in every mode until you change it or restart the game. While it removes
+  something, the HUD shows how many.
+- [Fill Inputs](Fill-Inputs) and [Clear Items](Clear-Items) add a list of items to fill or clear.

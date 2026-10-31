@@ -8,9 +8,9 @@ including from the pause menu.
 | General | Enable auto pillars | Off | Mark buildings while saving a blueprint or copying; when the blueprint is placed, the marked columns reach down to the ground or a floor and are built with it. See [Auto Pillars](Auto-Pillars). |
 | General | Include items in Blueprint | Off | Blueprints written by Move, Copy and Save Blueprint keep machine and container contents; see [Blueprints and Cost](Blueprints-And-Cost). |
 | General | Snap rotation to highlighted building | On | While you place the first corner of a box, the region turns to match the building you aim at; aim away and it returns to your own rotation. See [Regions](Regions). |
-| General | Selection limit | 35000 | How many buildings and foundation pieces one selection can hold, from 1000 to 1000000. Anything past the limit is left out. Larger selections take longer to send and prepare. In multiplayer the host setting applies. |
+| General | Selection limit | 35000 | How many buildings one selection can hold, from 1000 to 1000000. In multiplayer the host setting applies. |
 | General | Dismantle limit | 100000 | How many buildings the game's dismantle tool can hold at once, from 100000 to 1000000. Used even with Infinite Dismantle installed; see [Dismantle](Dismantle). In multiplayer the host setting applies. |
-| General | Selection volume limit factor | 500 | The largest space one selection can cover, as the side of a cube in meters, from 100 to 10000: 500 allows 500 x 500 x 500 m, in any shape or split over several regions. Over it the region turns red and cannot be confirmed; see [Limits and Known Issues](Limits-And-Known-Issues). In multiplayer the host setting applies. |
+| General | Selection volume limit factor | 500 | The largest space one selection can cover, as the side of a cube in meters, from 100 to 10000. In multiplayer the host setting applies. |
 | General | Auto pillar limit | 5000 | The most buildings [auto pillars](Auto-Pillars) can add to one placed blueprint, from 100 to 100000. Raise it for very tall builds. In multiplayer the host setting applies. |
 | One per mode | Enable [mode] | On | Offer the mode when the build-mode key cycles the tool modes. At least one mode stays enabled. |
 | Move | Save each Move as a blueprint | Off | Keep one blueprint per Move under **Regionator > Move History**, named by the time it was made. Its machines are empty unless Include items in Blueprint is on. |
@@ -18,15 +18,10 @@ including from the pause menu.
 | Copy | Save each Copy as a blueprint | Off | The same, under **Copy History**. |
 | Copy | Start at origin | Off | The same, for every Copy; after each placement the next copy starts where the last one was placed. |
 | HUD | Show the panel | On | Show the [Regionator HUD](Regionator-HUD) that reports what the tool is doing. |
-| HUD | Position | Top Center | Where the HUD sits: nine named spots, or Manual. Picking a spot moves the two sliders below to it; moving either slider by hand switches this to Manual. |
+| HUD | Position | Top Center | Where the HUD sits: nine named spots, or Manual (set by the two sliders below). |
 | HUD | Horizontal position, Vertical position | Follow Position | Percent across and down the screen: 0 is the left edge or the top, 100 is the right edge or the bottom. |
 | HUD | Size | 5 | How large the HUD and its text are, from 1 to 10. |
 
 ## Notes
 
-- The four limits have a number box beside the slider, so an exact value can be typed. In
-  [multiplayer](Multiplayer) the host's limits apply to every player; your own values are
-  ignored while you are connected.
-- Disabling **Enable Save Blueprint** before the blueprint milestone hides the blueprint menu
-  again (in [multiplayer](Multiplayer), once no player present has it enabled); see the note on
-  [Save Blueprint](Save-Blueprint) about removing the mod.
+- The four limits have a number box beside the slider for exact values.

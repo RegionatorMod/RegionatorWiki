@@ -4,31 +4,30 @@ Regionator is free and unlocked from the start.
 
 ## Your first dismantle
 
-1. Equip the tool: build menu > **Special** > **Selection** > **Regionator**, put it on a hotbar
-   slot, or press `J` (`L3 + LB` on a controller; the equip key also puts it away).
-2. Press the game's build-mode key and pick **Dismantle** (the mode is remembered for next time).
-3. Click once to set the first corner of the box. Aimed at a building, the box turns to match
-   it (**Snap rotation to highlighted building**, on by default).
-4. Move: the box previews to the cursor and everything inside is outlined. Click to set the
-   second corner.
-5. The region locks so you can nudge, rotate or step it into shape. Click once more to confirm.
-6. The selection is handed to the game's own dismantle tool. Fire to dismantle; until you fire,
-   secondary fire cancels.
+1. Equip the tool: build menu > **Special** > **Selection** > **Regionator**, or press `J`
+   (`L3 + LB` on a controller).
+2. Press the build-mode key and pick **Dismantle**.
+3. Aim at one corner of what you want to remove and click to place the first corner.
+4. Aim at the opposite corner, higher or lower to cover several floors. Everything inside is
+   outlined. Click to place the second corner.
+5. The box locks in place, so you can nudge or rotate it if it is not quite right. Click again to
+   confirm.
+6. The game's dismantle tool comes up holding everything inside, and the HUD shows the refund.
+   Fire to dismantle.
 
 <img alt="Choosing a tool from the wheel, drawing a box over a factory row and dismantling it" src="https://raw.githubusercontent.com/RegionatorMod/RegionatorWiki/main/images/pages/quick_start.webp" width="800" loading="lazy">
 
-Right-click (secondary fire) steps back one stage at any point before the confirm.
+Changed your mind? Before you confirm, secondary fire steps back one stage each press: from the
+locked box to the second corner, then to the first. In the dismantle tool, secondary fire cancels.
+Nothing is removed until you fire.
 
-## From there
+## Next steps
 
-- The build-mode key picks what a confirm does: Dismantle, Replace, Move, Copy, Save Blueprint,
-  Fill inputs or Clear items. See each mode's page.
-- `Left Ctrl + B` (`L3 + Y` on a controller) switches the region between a box and a
-  [sphere](Regions).
-- `Left Ctrl + N` (`L3 + A`) freezes the current region and starts [another one](Regions).
-- `L` (`L3 + X`) opens the [type filter](Type-Filtering).
-- A tap of `Left Alt` (`L3 + RB`) on a hovered storage container
-  [targets it](Container-Targeting) so refunds and costs go through it.
+- The build-mode key picks the mode: Dismantle, Replace, Move, Copy, Save Blueprint, Fill inputs
+  or Clear items. Each has its own page.
+- `Left Ctrl + B` switches to a [sphere](Regions).
+- `Left Ctrl + N` adds [another region](Regions).
+- `L` opens the [type filter](Type-Filtering).
+- Tap `Left Alt` on a storage container to [target it](Container-Targeting).
 
-All keys can be rebound; see [Controls](Controls). On a controller the same commands are chords
-on the left stick click; see [Controller and Steam Deck](Controller).
+See [Controls](Controls) for every key, and [Controller and Steam Deck](Controller) for the pad.

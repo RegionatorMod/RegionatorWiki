@@ -19,7 +19,7 @@ Draw a box or sphere around any part of your factory, then pick what happens to 
   items and pipe fluid come along.
 - **Copy**: your selection becomes a hologram you can build again and again, at the normal cost.
 - **Replace**: swap foundations, walls, belts, pipes and more for another type, material or color,
-  in place. It can also set machine recipes and clock speeds, and change miner tiers.
+  in place. It can also set machine recipes and clock speeds, change miner tiers, and edit signs.
 - **Save a blueprint**: save any selection as a normal blueprint, no Blueprint Designer needed.
 - **Clear items**: empty machines, belts and pipes, and pick up dropped items and dismantle crates.
 - **Fill inputs**: fill machines and solid-fuel generators from your inventory or targeted
@@ -85,8 +85,16 @@ Regionator has direct support for several mods, many of which we recommend you a
 | [Infinite Nudge](https://ficsit.app/mod/InfiniteNudge)     | ✅ Yes       | ✅ Yes         | Helps with fine adjustments to Regionator selection,<br>and nudging holograms to precise locations.                                            |
 | [Lights +](https://ficsit.app/mod/LightsPlus)           | ✅ Yes       | Optional    |                                                                                                                                                |
 | [SnapOn](https://ficsit.app/mod/DirectToSplitter)             | ✅ Yes       | Optional    |                                                                                                                                                |
+| [Universal Swatch Slots](https://ficsit.app/mod/UniversalSwatchSlots) | ✅ Yes       | Optional    |                                                                                                                                                |
+| [Extra Finishes](https://ficsit.app/mod/ExtraFinishes) | ✅ Yes       | Optional    |                                                                                                                                                |
 | [Infinite Dismantle](https://ficsit.app/mod/InfiniteDismantle) | ✅ Yes       | ❌ No          | Regionator provides a dismantle limit option in the Mods menu,<br>if Infinite Dismantle is installed, the value set by Regionator is preferred. |
 
+
+---
+
+### Downloads and views
+
+[![Downloads and views](https://mods.slyfox.lol/api/export/Regionator.svg?metric=both&mode=total&theme=dark&range=all)](https://mods.slyfox.lol/)
 
 ---
 
